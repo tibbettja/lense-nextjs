@@ -15,6 +15,7 @@ const BaseLayoutWrapper = styled(Box)(({ theme }) => ({
   justifyItems: "flex-start",
   alignContent: "center",
   backgroundColor: theme.palette.background.default,
+  paddingTop: '90px'
 }));
 
 const MainContentWrapper = styled(Box)({

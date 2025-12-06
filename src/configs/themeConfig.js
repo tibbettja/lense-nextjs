@@ -1,6 +1,6 @@
 const themeConfig = {
-  appName: "Brooke Tibbett Photography",
-  appDescription: "Brooke Tibbett Photography",
+  appName: "B. Tibbett Photography",
+  appDescription: "B. Tibbett Photography",
   mode: "light",
   contentWidth: "full",
   routingLoader: true,

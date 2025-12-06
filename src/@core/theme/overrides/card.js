@@ -2,12 +2,10 @@ const Card = (theme) => ({
   MuiCard: {
     styleOverrides: {
       root: {
-        boxShadow: theme.shadows[2],
         "& .card-more-options": {
           marginTop: theme.spacing(-1),
           marginRight: theme.spacing(-3),
         },
-        borderRadius: "1px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "start",
@@ -38,6 +36,7 @@ const Card = (theme) => ({
         padding: theme.spacing(5),
         "& + .MuiCardContent-root": {
           paddingTop: 0,
+          borderRadius: 0,
         },
         "& + .MuiCardActions-root": {
           paddingTop: 0,

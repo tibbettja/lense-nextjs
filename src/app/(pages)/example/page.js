@@ -1,17 +1,23 @@
 import themeConfig from "@/configs/themeConfig";
 
 import {
-  Card,
   CardHeader,
   CardContent,
   Typography,
   Button,
   Grid,
+  Card
 } from "@mui/material";
 
 export default function Home() {
   return (
-    <Grid container spacing={4}>
+    <Grid
+        size={{ xs: 12, lg: 10, xl: 8 }}
+        offset={{ xs: 0, lg: 1, xl: 2 }}
+        container
+        spacing={4}
+        paddingX={4}
+      >
       <Grid size={6}>
         <Card>
           <CardHeader title="Example Card" />

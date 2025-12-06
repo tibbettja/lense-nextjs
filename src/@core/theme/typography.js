@@ -2,6 +2,13 @@ import fonts from "./fonts";
 
 const Typography = (theme) => {
   return {
+    logo: {
+      fontWeight: 400,
+      fontSize: "40pt",
+      letterSpacing: "-1.5px",
+      color: theme.palette.text.primary,
+      fontFamily: fonts.logo.style.fontFamily,
+    },
     h1: {
       fontWeight: 500,
       fontSize: "40pt",
