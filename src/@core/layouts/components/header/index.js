@@ -3,8 +3,6 @@
 import Image from "next/image";
 import {
   Grid,
-  Menu,
-  MenuItem,
   Typography,
   Button,
   Link,
@@ -12,13 +10,10 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import { ListItem, Stack } from "@mui/material";
 import NextLink from 'next/link'
-import { Menu as MenuIcon } from "@mui/icons-material";
 import fonts from "@/@core/theme/fonts";
 import themeConfig from "@/configs/themeConfig";
 import MobileMenu from "./components/MobileMenu";
-import nextConfig from "next.config.mjs";
 
 const logoImage = 'images/logo.png'
 
