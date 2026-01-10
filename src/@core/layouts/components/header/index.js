@@ -17,8 +17,6 @@ import NextLink from 'next/link'
 import { Menu as MenuIcon } from "@mui/icons-material";
 import fonts from "@/@core/theme/fonts";
 import themeConfig from "@/configs/themeConfig";
-import AboutMenu from "./components/AboutMenu";
-import GrowMenu from "./components/GrowMenu";
 import MobileMenu from "./components/MobileMenu";
 import nextConfig from "next.config.mjs";
 
