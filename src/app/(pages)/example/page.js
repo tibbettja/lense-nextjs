@@ -93,6 +93,24 @@ export default function Home() {
           </CardContent>
         </Card>
       </Grid>
+      <Grid size={12}>
+        <Button variant="contained" color='primary'>Primary Contained</Button>
+        <Button variant="contained" color='secondary'>Secondary Contained</Button>
+        <Button variant="contained" color='info'>Info Contained</Button>
+        <Button variant="contained" color='success'>Success Contained</Button>
+        <Button variant="contained" color='attention'>Attention Contained</Button>
+        <Button variant="contained" color='warning'>Warning Contained</Button>
+        <Button variant="contained" color='error'>Error Contained</Button>
+      </Grid>
+      <Grid size={12}>
+        <Button variant="outlined" color='primary'>Primary Outlined</Button>
+        <Button variant="outlined" color='secondary'>Secondary Outlined</Button>
+        <Button variant="outlined" color='info'>Info Outlined</Button>
+        <Button variant="outlined" color='success'>Success Outlined</Button>
+        <Button variant="outlined" color='attention'>Attention Outlined</Button>
+        <Button variant="outlined" color='warning'>Warning Outlined</Button>
+        <Button variant="outlined" color='error'>Error Outlined</Button>
+      </Grid>
     </Grid>
   );
 }

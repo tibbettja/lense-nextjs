@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Menu, MenuItem, IconButton, Divider } from "@mui/material";
+import { Menu, MenuItem, IconButton, Divider, Typography } from "@mui/material";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import { useRouter } from "next/navigation";
 
@@ -42,59 +42,25 @@ const MobileMenu = () => {
           },
           paper: {
             sx: {
-              width: "calc(100vw - 36px)",
+              width: "100vw"
             },
           },
         }}
       >
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/about")}>About</MenuItem>
-        <Divider variant="middle" flexItem />
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/beliefs")}>Beliefs</MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/leadership")}>
-          Leadership
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "about")}>
+          <Typography variant='button'>About</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/ministry/kids")}>
-          Conduit Kids
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "portfolio")}>
+          <Typography variant='button'>Portfolio</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/ministry/students")}>
-          Overcharge Students
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "offerings")}>
+          <Typography variant='button'>Offerings</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/ministry/young-adults")}>
-          Young Adults
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "book")}>
+          <Typography variant='button'>Book Now</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/ministry/marriage-family")}>
-          Marriage & Family
-        </MenuItem>
-        <Divider variant="middle" flexItem />
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/grow")}>Grow</MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/next-steps")}>
-          Next Steps
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/grow/baptism")}>
-          Baptism
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/grow/discipleship")}>
-          Discipleship
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/grow/serve-team")}>
-          Serve Team
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/grow/small-groups")}>
-          Small Groups
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/prayer-wall")}>
-          Prayer Wall
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/your-story")}>
-          Share Your Story
-        </MenuItem>
-        <Divider variant="middle" flexItem />
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/visit")}>Visit</MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/events")}>Events</MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/give")}>Give</MenuItem>
-        <Divider variant="middle" flexItem />
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/contact-us")}>
-          Contact Us
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "contact-us")}>
+          <Typography variant='button'>Contact Us</Typography>
         </MenuItem>
       </Menu>
     </>

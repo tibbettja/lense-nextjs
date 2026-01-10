@@ -22,9 +22,12 @@ import GrowMenu from "./components/GrowMenu";
 import MobileMenu from "./components/MobileMenu";
 import nextConfig from "next.config.mjs";
 
+const logoImage = 'images/logo.png'
+
 const Header = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("lg"));
+  const isSmall = useMediaQuery(theme.breakpoints.down("xl"))
 
   return (
     <Box
@@ -71,16 +74,51 @@ const Header = () => {
                 alignItems: 'center'
               }}
             >
+              <Box sx={{
+                display: 'flex',
+                gap: 6,
+                justifyContent: 'start',
+                alignItems: 'center'
+              }}>
+              <Link
+                href="/"
+                component={NextLink}
+                sx={{ textDecoration: "none !important", paddingTop: 1 }}
+              >
+                <img src={logoImage} alt='logo' style={{ width: 90, height: 'auto' }} />
+              </Link>
               <Link
                 href="/"
                 component={NextLink}
                 sx={{ textDecoration: "none !important" }}
               >
-                <Typography variant="logo">
+                <Typography variant={isSmall && !isMobile ? 'logo2' : 'logo1'}>
                   {themeConfig.appName}
                 </Typography>
               </Link>
-              <MobileMenu />
+              </Box>
+              { !isMobile ? (
+                <Box sx={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', gap: 3 }}>
+                  <Link component={NextLink} href='about' title='About'>
+                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">About</Button>
+                  </Link>
+                  <Link component={NextLink} href='portfolio' title='Portfolio'>
+                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">Portfolio</Button>
+                  </Link>
+                  <Link component={NextLink} href='offerings' title='Offerings'>
+                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">Offerings</Button>
+                  </Link>
+                  <Link component={NextLink} href='book' title='Book Now'>
+                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">Book Now</Button>
+                  </Link>
+                  <Link component={NextLink} href='contact-us' title='Contact Us'>
+                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">Contact Us</Button>
+                  </Link>
+                </Box>
+              ) : (
+                <MobileMenu />
+              )}
+
             </Box>
           </Box>
         </Grid>

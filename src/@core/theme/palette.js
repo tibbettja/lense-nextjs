@@ -6,7 +6,7 @@ const DefaultPalette = (mode) => {
   return {
     customColors: {
       main: `rgba(${mainColor}, 1)`,
-      primaryGradient: "#012160",
+      primaryGradient: "#8c2f39",
       tableHeaderBg: mode === "light" ? "#F9FAFC" : "#3D3759",
     },
     common: {
@@ -15,46 +15,46 @@ const DefaultPalette = (mode) => {
     },
     mode,
     primary: {
-      light: "#db2b39", //
-      main: "#f3a712", //
-      dark: "#29335c", //
-      contrastText: "#fff",
+      light: "#e2cfca", //
+      main: "#d5b9b2", //
+      dark: "#ccaba3", //
+      contrastText: "#000",
     },
     secondary: {
-      light: "#6a994e", //
-      main: "#6a994e", //
-      dark: "#6a994e", //
+      light: "#aa7476", //
+      main: "#A26769", //
+      dark: "#985d5f", //
       contrastText: "#fff",
     },
     info: {
-      light: "#a7c957", //
-      main: "#a7c957", //
-      dark: "#a7c957", //
-      contrastText: "#000",
+      light: "#813653", //
+      main: "#6D2E46", //
+      dark: "#562437", //
+      contrastText: "#fff",
     },
     success: {
-      light: "#D2E3A9", //
-      main: "#D2E3A9", // Darmouth Green
-      dark: "#D2E3A9", //
-      contrastText: "#000",
+      light: "#93b49a", //
+      main: "#84a98c", // Darmouth Green
+      dark: "#64906e", //
+      contrastText: "#fff",
     },
     attention: {
-      light: "#ffbc42", //
-      main: "#ffbc42", // Canary
-      dark: "#ffbc42", //
+      light: "#fee440", //
+      main: "#fee440", // Canary
+      dark: "#fee440", //
       contrastText: "#000",
     },
     warning: {
-      light: "#168aad", //
-      main: "#168aad", // Fulvous
-      dark: "#168aad", //
+      light: "#f8cf8b", //
+      main: "#F6BD60", // Fulvous
+      dark: "#f4ae3e", //
       contrastText: "#000",
     },
     error: {
-      light: "#0c63e7", // Chili Red
-      main: "#0c63e7", // Rufous
-      dark: "#0c63e7", // Barn Red
-      contrastText: "#000",
+      light: "#e01522", // Chili Red
+      main: "#C1121F", // Rufous
+      dark: "#a8101a", // Barn Red
+      contrastText: "#fff",
     },
     grey: {
       A100: "#f8f9fa",

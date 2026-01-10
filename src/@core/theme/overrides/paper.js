@@ -3,7 +3,7 @@ const Paper = (theme) => ({
     styleOverrides: {
       root: {
         backgroundImage: "none",
-        borderRadius: 0,
+        borderRadius: 2,
         boxShadow: "unset",
       }
     },

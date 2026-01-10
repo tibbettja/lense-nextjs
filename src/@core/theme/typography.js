@@ -2,9 +2,16 @@ import fonts from "./fonts";
 
 const Typography = (theme) => {
   return {
-    logo: {
+    logo1: {
       fontWeight: 400,
       fontSize: "40pt",
+      letterSpacing: "-1.5px",
+      color: theme.palette.text.primary,
+      fontFamily: fonts.logo.style.fontFamily,
+    },
+    logo2: {
+      fontWeight: 400,
+      fontSize: "30pt",
       letterSpacing: "-1.5px",
       color: theme.palette.text.primary,
       fontFamily: fonts.logo.style.fontFamily,
@@ -45,6 +52,7 @@ const Typography = (theme) => {
       fontFamily: fonts.header.style.fontFamily,
     },
     h6: {
+      fontWeight: 500,
       letterSpacing: "0.15px",
       fontSize: "20pt",
       color: theme.palette.text.primary,
@@ -71,9 +79,9 @@ const Typography = (theme) => {
     },
     body2: {
       letterSpacing: "0.15px",
-      fontSize: "14pt",
+      fontSize: "18pt",
       color: theme.palette.text.secondary,
-      fontWeight: 400,
+      fontWeight: 500,
       fontFamily: fonts.body.style.fontFamily,
     },
     button: {
