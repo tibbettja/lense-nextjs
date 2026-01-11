@@ -25,7 +25,7 @@ const Footer = () => {
     <Grid container spacing={5} padding={5} sx={{ alignItems: "stretch" }}>
       <Grid size={12}>
         <Divider textAlign="center">
-          &copy; {themeConfig.appName} 2025
+          &copy; {themeConfig.appName} { (new Date()).getFullYear()}
         </Divider>
       </Grid>
     </Grid>
