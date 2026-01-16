@@ -13,9 +13,10 @@ const MobileMenu = () => {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = (event, id) => {
+  const handleClose = (event, id, blank) => {
     event.preventDefault();
-    if (id) router.push(id);
+    if (id && !blank) router.push(id);
+    if (id && blank) router.push(id, { target: '_blank' })
     setAnchorEl(null);
   };
 
@@ -47,19 +48,13 @@ const MobileMenu = () => {
           },
         }}
       >
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "about")}>
-          <Typography variant='button'>About</Typography>
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "portfolio")}>
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "https://portfolio.btibbettphotography.com", true)}>
           <Typography variant='button'>Portfolio</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "offerings")}>
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "offerings", false)}>
           <Typography variant='button'>Offerings</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "book")}>
-          <Typography variant='button'>Book Now</Typography>
-        </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "contact-us")}>
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "https://portfolio.btibbettphotography.com/contact", true)}>
           <Typography variant='button'>Contact Us</Typography>
         </MenuItem>
       </Menu>

@@ -92,19 +92,13 @@ const Header = () => {
               </Box>
               { !isMobile ? (
                 <Box sx={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', gap: 3 }}>
-                  <Link component={NextLink} href='about' title='About'>
-                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">About</Button>
-                  </Link>
-                  <Link component={NextLink} href='portfolio' title='Portfolio'>
+                  <Link component={NextLink} href='https://portfolio.btibbettphotography.com' title='Portfolio' target="_blank">
                     <Button size={ isSmall ? 'small' : undefined } variant="outlined">Portfolio</Button>
                   </Link>
                   <Link component={NextLink} href='offerings' title='Offerings'>
                     <Button size={ isSmall ? 'small' : undefined } variant="outlined">Offerings</Button>
                   </Link>
-                  <Link component={NextLink} href='book' title='Book Now'>
-                    <Button size={ isSmall ? 'small' : undefined } variant="outlined">Book Now</Button>
-                  </Link>
-                  <Link component={NextLink} href='contact-us' title='Contact Us'>
+                  <Link component={NextLink} href='https://portfolio.btibbettphotography.com/contact' title='Contact Us' target='_blank'>
                     <Button size={ isSmall ? 'small' : undefined } variant="outlined">Contact Us</Button>
                   </Link>
                 </Box>

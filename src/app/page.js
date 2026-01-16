@@ -46,7 +46,7 @@ const Home = () => {
         </Grid>
         <Grid size={{ xs: 10, lg: 8 }} offset={{ xs: 1, lg: 2 }}>
             <Typography variant="h4" align='center'>
-              { themeConfig.appName } captures the joy and comfort of the Lake Norman area through intimate family photography.
+              { themeConfig.appName } captures the joy and comfort of the Lake Norman area through intimate birth and family photography.
             </Typography>
         </Grid>
         <Grid container size={12} sx={{ backgroundColor: theme.palette.info.main }}>
@@ -115,7 +115,7 @@ const Home = () => {
             />
             <CardHeader
               title={
-                <Typography variant="h4" align="center">Maternity</Typography>
+                <Typography variant="h4" align="center">Birth & Maternity</Typography>
               }
               sx={{ padding: 1 }}
             />

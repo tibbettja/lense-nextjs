@@ -13,12 +13,13 @@ import {
 } from "@mui/material";
 import nextConfig from "next.config.mjs";
 
+const offeringsImage = 'images/offerings.jpg'
+
 const Page = () => {
   return (
     <Grid container paddingTop={20} paddingX={4}>
       <Grid
-        size={{ xs: 12, lg: 10, xl: 8 }}
-        offset={{ xs: 0, lg: 1, xl: 2 }}
+        size={{ xs: 12 }}
         container
         spacing={4}
       >
@@ -27,6 +28,9 @@ const Page = () => {
             variant="h2"
             textAlign="center"
           >Pricing</Typography>
+        </Grid>
+        <Grid size={12} sx={{ backgroundColor: '#eae4da', display: 'flex', justifyContent: 'center' }}>
+          <img src={offeringsImage} style={{ height: '100%', width: 'auto', maxWidth: '100%' }} alt='Offerings' />
         </Grid>
       </Grid>
     </Grid>
