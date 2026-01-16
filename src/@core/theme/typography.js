@@ -16,6 +16,13 @@ const Typography = (theme) => {
       color: theme.palette.text.primary,
       fontFamily: fonts.logo.style.fontFamily,
     },
+    logo3: {
+      fontWeight: 400,
+      fontSize: "20pt",
+      letterSpacing: "-1.5px",
+      color: theme.palette.text.primary,
+      fontFamily: fonts.logo.style.fontFamily,
+    },
     h1: {
       fontWeight: 500,
       fontSize: "40pt",

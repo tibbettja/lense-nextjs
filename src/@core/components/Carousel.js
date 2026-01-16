@@ -30,7 +30,7 @@ const Carousel = ({ images, speed }) => {
             <img
                 src={images[displayedImage % images.length]}
                 alt={images[displayedImage % images.length]}
-                style={{ width:'100%', height: 'auto' }}
+                style={{ width:'100%', height: 'auto', objectFit: 'cover', minHeight: '400px' }}
             />
         </React.Fragment>
     )
