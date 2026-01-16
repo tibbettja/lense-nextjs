@@ -19,8 +19,8 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_VERSION: pkg_config.version,
   },
-  basePath: isProd ? "/lense-nextjs" : "",
-  assetPrefix: isProd ? "/lense-nextjs" : "",
+  basePath: isProd ? "" : "",
+  assetPrefix: isProd ? "" : "",
   images: isProd
     ? {
         unoptimized: true,
