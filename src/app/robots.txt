@@ -1,0 +1,163 @@
+# =========================
+# btibbettphotography.com
+# Purpose: Search engines & AI only
+# =========================
+
+# --- Google ---
+User-agent: Googlebot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: Googlebot-Image
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /
+
+User-agent: AdsBot-Google
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+# --- Bing / Microsoft ---
+User-agent: Bingbot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: AdIdxBot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+# --- Apple ---
+User-agent: Applebot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+# --- DuckDuckGo ---
+User-agent: DuckDuckBot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+# --- Social media previews (keep previews working) ---
+User-agent: facebookexternalhit
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: Facebot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: Twitterbot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: LinkedInBot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: Slackbot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: Discordbot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: WhatsApp
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+User-agent: TelegramBot
+Allow: /
+Allow: /images/logo.png
+Allow: /images/brooke.jpg
+Disallow: /documents
+Disallow: /images
+
+# --- AI / LLM training bots ---
+
+User-agent: GPTBot
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: CCBot
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: Anthropic-ai
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: YouBot
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /documents
+Disallow: /images
+
+# =========================
+# Default: block everything else
+# =========================
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://btibbettphotography.com/sitemap.xml
