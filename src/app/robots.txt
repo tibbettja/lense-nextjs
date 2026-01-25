@@ -8,18 +8,21 @@ User-agent: Googlebot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
 User-agent: Googlebot-Image
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /
 
 User-agent: AdsBot-Google
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -28,6 +31,7 @@ User-agent: Bingbot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -35,6 +39,7 @@ User-agent: AdIdxBot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -43,6 +48,7 @@ User-agent: Applebot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -51,6 +57,7 @@ User-agent: DuckDuckBot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -59,6 +66,7 @@ User-agent: facebookexternalhit
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -66,6 +74,7 @@ User-agent: Facebot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -73,6 +82,7 @@ User-agent: Twitterbot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -80,6 +90,7 @@ User-agent: LinkedInBot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -87,6 +98,7 @@ User-agent: Slackbot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -94,6 +106,7 @@ User-agent: Discordbot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -101,6 +114,7 @@ User-agent: WhatsApp
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
@@ -108,6 +122,7 @@ User-agent: TelegramBot
 Allow: /
 Allow: /images/logo.png
 Allow: /images/brooke.jpg
+Allow: /images/slider
 Disallow: /documents
 Disallow: /images
 
