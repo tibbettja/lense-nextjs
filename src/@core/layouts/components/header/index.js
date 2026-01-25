@@ -109,17 +109,25 @@ const Header = () => {
                     gap: 3,
                   }}
                 >
+                  <Link component={NextLink} href="portfolio" title="Portfolio">
+                    <Button
+                      size={isSmall ? "small" : undefined}
+                      variant="outlined"
+                    >
+                      Portfolio
+                    </Button>
+                  </Link>
                   <Link
                     component={NextLink}
                     href="https://portfolio.btibbettphotography.com"
-                    title="Portfolio"
+                    title="Client Gallery"
                     target="_blank"
                   >
                     <Button
                       size={isSmall ? "small" : undefined}
                       variant="outlined"
                     >
-                      Portfolio
+                      Client Gallery
                     </Button>
                   </Link>
                   <Link component={NextLink} href="offerings" title="Offerings">
