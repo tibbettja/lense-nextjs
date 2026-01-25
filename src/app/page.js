@@ -13,24 +13,17 @@ import {
   Box,
   CardMedia,
   useTheme,
+  styled
 } from "@mui/material";
 import nextConfig from "next.config.mjs";
 import themeConfig from "@/configs/themeConfig";
-import "animate.css";
 import Carousel from "@/@core/components/Carousel";
 
-const heroImages = [
-  "images/children/4b313f1e2578f643ca26.jpg",
-  "images/maternity/c6f9f2fbd1caf6d99b2f.jpg",
-  "images/seniors/6fa16f8dbc4ddd924f89.jpg",
-  "images/children/32ca3b18c95467174593.jpg",
-  "images/maternity/b2594453464d28176c37.jpg",
-  "images/family/3defbc8953bae59328d4.jpg",
-];
-const familyImage = "images/family/421b7bc3167858e2126a.jpg";
-const maternityImage = "images/maternity/5853201f8949b5eda39c.jpg";
-const graduationImage = "images/seniors/5f9c0d7681b497d3e7f7.jpg";
+const familyImage = "images/portfolio/fam_4.jpg";
+const maternityImage = "images/portfolio/mat_5.jpg";
+const graduationImage = "images/portfolio/sen_4.jpg";
 const brookeImage = "images/brooke.jpg";
+
 
 const Home = () => {
   const theme = useTheme();
@@ -40,7 +33,16 @@ const Home = () => {
       <Grid container padding={0} rowSpacing={10}>
         <Grid size={12}>
           <Box>
-            <Carousel images={heroImages} speed={3} />
+            <Carousel
+              slides={[
+                { src: "images/slider/slide_0.jpg", style: {}, key: 0, width:  85 },
+                { src: "images/slider/slide_1.jpg", style: {}, key: 1, width: 100 },
+                { src: "images/slider/slide_2.jpg", style: {}, key: 2, width: 100 },
+                { src: "images/slider/slide_3.jpg", style: {}, key: 3, width: 100 },
+                { src: "images/slider/slide_4.jpg", style: {}, key: 4, width: 100 },
+                { src: "images/slider/slide_5.jpg", style: {}, key: 5, width: 100 },
+              ]}
+            />
           </Box>
         </Grid>
         <Grid size={{ xs: 10, lg: 8 }} offset={{ xs: 1, lg: 2 }}>
@@ -52,16 +54,17 @@ const Home = () => {
         <Grid
           container
           size={12}
-          sx={{ backgroundColor: theme.palette.info.main }}
+          sx={{ backgroundColor: theme.palette.info.main, paddingY: -5 }}
         >
           <Grid size={{ xs: 10}} offset={{ xs: 1 }}>
-            <Grid container paddingX={0} paddingY={3} columnSpacing={2}>
+            <Grid container paddingX={0} paddingY={0} columnSpacing={2}>
               <Grid
                 size={{ xs: 12, md: 6 }}
                 sx={{
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  maxHeight: '600px'
                 }}
               >
                 <img
@@ -69,8 +72,8 @@ const Home = () => {
                   alt="Brooke Image"
                   style={{
                     maxWidth: "100%",
-                    height: "80%",
-                    aspectRatio: "1667/2048",
+                    height: "90%",
+                    // aspectRatio: "1667/2048",
                     objectFit: "cover",
                   }}
                 />
@@ -132,7 +135,7 @@ const Home = () => {
         </Grid>
       </Grid>
       <Grid container padding={5} rowSpacing={15} columnSpacing={10}>
-        <Grid size={{ xs: 10, lg: 3 }} offset={{ xs: 1, lg: 1.5 }}>
+        <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3,  lg: 1.5 }}>
           <Card>
             <CardMedia
               component="img"
@@ -150,7 +153,7 @@ const Home = () => {
             />
           </Card>
         </Grid>
-        <Grid size={{ xs: 10, lg: 3 }} offset={{ xs: 1, lg: 0 }}>
+        <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3,  lg: 0 }}>
           <Card>
             <CardMedia
               component="img"
@@ -168,7 +171,7 @@ const Home = () => {
             />
           </Card>
         </Grid>
-        <Grid size={{ xs: 10, lg: 3 }} offset={{ xs: 1, lg: 0 }}>
+        <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3, lg: 0 }}>
           <Card>
             <CardMedia
               component="img"

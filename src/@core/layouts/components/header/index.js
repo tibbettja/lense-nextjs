@@ -19,7 +19,7 @@ const logoImage = "images/logo.png";
 
 const Header = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("lg"));
+  const isMobile = useMediaQuery(theme.breakpoints.down("lg"), { defaultMatches: true });
   const isSmall = useMediaQuery(theme.breakpoints.down("xl"));
   const isXSmall = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -31,6 +31,7 @@ const Header = () => {
         left: 0,
         width: "100%",
         bgcolor: theme.palette.background.default,
+        zIndex: 3
       }}
     >
       <Grid
@@ -97,7 +98,9 @@ const Header = () => {
                   </Typography>
                 </Link>
               </Box>
-              {!isMobile ? (
+              { isMobile ? (
+                <MobileMenu />
+              ) : (
                 <Box
                   sx={{
                     display: "flex",
@@ -141,8 +144,6 @@ const Header = () => {
                     </Button>
                   </Link>
                 </Box>
-              ) : (
-                <MobileMenu />
               )}
             </Box>
           </Box>
