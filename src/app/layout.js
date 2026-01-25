@@ -17,6 +17,138 @@ const initialThemeSettings = {
 const ServerApp = ({ children }) => {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+            {
+              "@context": "http://schema.org",
+              "@type": ["ProfessionalBusiness", "LocalBusiness"],
+              "name": "B. Tibbett Photography",
+              "url:" "https://btibbettphotography.com",
+              "@id:" "https://btibbettphotography.com",
+              "description": "B. Tibbett Photography captures the joy and comfort of the Lake Norman area through intimate birth and family photography.",
+              "logo": "https://btibbettphotography.com/images/logo.png",
+              "image": [
+                "https://btibbettphotography.com/images/slider/slide_1-800.webp",
+                "https://btibbettphotography.com/images/slider/slide_2-800.webp",
+                "https://btibbettphotography.com/images/slider/slide_3-800.webp",
+                "https://btibbettphotography.com/images/slider/slide_4-800.webp",
+                "https://btibbettphotography.com/images/slider/slide_5-800.webp"
+              ],
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Huntersville",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Statesville",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Troutman",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Cornelius",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Davidson",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Concord",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Salisbury",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Kannapolis",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+                {
+                  "@type": "City",
+                  "name": "Landis",
+                  "addressRegion": "NC",
+                  "addressCountry": "US"
+                },
+              ],
+              "samesAs": [
+                "https://www.instagram.com/btibbettphotography/",
+                "https://www.facebook.com/profile.php?id=61584634042120"
+              ],
+              "priceRange": "$$",
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Photography Services",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Senior's Photography",
+                      "description": "Personal photography session aimed to capture the pivotal moment of graduation."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Family Photography",
+                      "description": "Professional photography session which will photograph the love and intimacy of your family."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Birth Photography",
+                      "description": "Life-changing moments captured during your child's delivery."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Maternity Photography",
+                      "description": "Capture the beautiful moments of maternity with this guided photography session."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Couple's Photography",
+                      "description": "Photograph an intimate proposal or capture the love of one another through this session."
+                    }
+                  }
+                ]
+              },
+            }
+          `,
+          }}
+        />
+      </head>
       <body className={fonts.body.className}>
         <AppRouterCacheProvider options={{ key: "css" }}>
           <ThemeComponent settings={initialThemeSettings}>
