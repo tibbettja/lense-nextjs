@@ -57,7 +57,7 @@ const Home = () => {
       <Grid container padding={0} rowSpacing={10}>
         <Grid size={12}>
           <Box>
-            <Carousel slides={slides} />
+            <Carousel slides={slides.sort(() => Math.random() - 0.5)} />
           </Box>
         </Grid>
         <Grid size={{ xs: 10, lg: 8 }} offset={{ xs: 1, lg: 2 }}>
