@@ -66,8 +66,27 @@ const ServerApp = ({ children }) => {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Senior's Photography",
-                      "description": "Personal photography session aimed to capture the pivotal moment of graduation."
+                      "name": "Senior Portrait Photography",
+                      "alternateName": "Senior Portrait Photographer",
+                      "description": "Personal photography session aimed to capture the dedication a senior has put into their education."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Milestone Moments",
+                      "alternateName": "Milestone Photographer",
+                      "description": "Personal photography session aimed to capture the milestones in a child's life. Usually captured at newborn, six months, and one year."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Lifestyle Newborn",
+                      "alternateName": "Lifestyle Photographer",
+                      "description": "Personal photography session taken at home to capture the love and intimacy of the family with their new addition"
                     }
                   },
                   {
@@ -75,7 +94,8 @@ const ServerApp = ({ children }) => {
                     "itemOffered": {
                       "@type": "Service",
                       "name": "Family Photography",
-                      "description": "Professional photography session which will photograph the love and intimacy of your family."
+                      "alternateName": "Family Photographer",
+                      "description": "Professional photography session which will catpure the love and intimacy of your family."
                     }
                   },
                   {
@@ -83,7 +103,8 @@ const ServerApp = ({ children }) => {
                     "itemOffered": {
                       "@type": "Service",
                       "name": "Birth Photography",
-                      "description": "Life-changing moments captured during your child's delivery."
+                      "alternateName": "Birth Photographer",
+                      "description": "Life-changing and intimate moments captured during a mother's labor and delivery."
                     }
                   },
                   {
@@ -91,6 +112,7 @@ const ServerApp = ({ children }) => {
                     "itemOffered": {
                       "@type": "Service",
                       "name": "Maternity Photography",
+                      "alternateName": "Maternity Photographer",
                       "description": "Capture the beautiful moments of maternity with this guided photography session."
                     }
                   },
@@ -98,7 +120,17 @@ const ServerApp = ({ children }) => {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
+                      "name": "Event Photography",
+                      "alternateName": "Event Photographer",
+                      "description": "Photography of events such as birthday parties, gender reveals, baby showers, and elopments"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
                       "name": "Couple's Photography",
+                      "alternateName": "Couples Photographer",
                       "description": "Photograph an intimate proposal or capture the love of one another through this session."
                     }
                   }
