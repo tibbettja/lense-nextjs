@@ -24,10 +24,11 @@ const ServerApp = ({ children }) => {
             __html: `
             {
               "@context": "http://schema.org",
-              "@type": ["ProfessionalBusiness", "LocalBusiness"],
+              "@type": "LocalBusiness",
               "name": "B. Tibbett Photography",
-              "url:" "https://btibbettphotography.com",
-              "@id:" "https://btibbettphotography.com",
+              "alternateName": "Brooke Tibbett Photography",
+              "url": "https://btibbettphotography.com",
+              "@id": "https://btibbettphotography.com",
               "description": "B. Tibbett Photography captures the joy and comfort of the Lake Norman area through intimate birth and family photography.",
               "logo": "https://btibbettphotography.com/images/logo.png",
               "image": [
@@ -37,63 +38,16 @@ const ServerApp = ({ children }) => {
                 "https://btibbettphotography.com/images/slider/slide_4-800.webp",
                 "https://btibbettphotography.com/images/slider/slide_5-800.webp"
               ],
-              "areaServed": [
-                {
-                  "@type": "City",
-                  "name": "Huntersville",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
+              "areaServed": {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 35.67438216754764,
+                  "longitude": -80.8564488652242
                 },
-                {
-                  "@type": "City",
-                  "name": "Statesville",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Troutman",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Cornelius",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Davidson",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Concord",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Salisbury",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Kannapolis",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-                {
-                  "@type": "City",
-                  "name": "Landis",
-                  "addressRegion": "NC",
-                  "addressCountry": "US"
-                },
-              ],
-              "samesAs": [
+                "geoRadius": "50 mi"
+              },
+              "sameAs": [
                 "https://www.instagram.com/btibbettphotography/",
                 "https://www.facebook.com/profile.php?id=61584634042120"
               ],
@@ -143,7 +97,7 @@ const ServerApp = ({ children }) => {
                     }
                   }
                 ]
-              },
+              }
             }
           `,
           }}
