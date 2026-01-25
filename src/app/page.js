@@ -85,12 +85,12 @@ const Home = () => {
                   <source
                     type="image/avif"
                     srcSet={brookeImage.avif.set}
-                    sizes="(max-width: 769px) 90v, 20vw"
+                    sizes="(max-width: 769px) 90vw, 20vw"
                   />
                   <source
                     type="image/webp"
                     srcSet={brookeImage.webp.set}
-                    sizes="(max-width: 769px) 90v, 20vw"
+                    sizes="(max-width: 769px) 90vw, 20vw"
                   />
                   <img
                     src={brookeImage.jpg}
