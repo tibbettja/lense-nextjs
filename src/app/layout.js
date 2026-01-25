@@ -38,6 +38,12 @@ const ServerApp = ({ children }) => {
                 "https://btibbettphotography.com/images/slider/slide_4-800.webp",
                 "https://btibbettphotography.com/images/slider/slide_5-800.webp"
               ],
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mooresville",
+                "addressRegion": "NC",
+                "postalCode": "28115"
+              },
               "areaServed": {
                 "@type": "GeoCircle",
                 "geoMidpoint": {
