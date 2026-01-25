@@ -63,7 +63,7 @@ const CarouselOptimized = ({ slides }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     // Autoplay({ delay: 5000 }),
     // Fade()
-    AutoScroll({ startDelay: 1000 }),
+    AutoScroll({ startDelay: 500, speed: 1, '(min-width: 768px)': { speed: 2 } }),
   ]);
 
   const onDotButtonClick = React.useCallback(
