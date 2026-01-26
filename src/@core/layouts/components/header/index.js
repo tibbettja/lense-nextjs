@@ -15,7 +15,7 @@ import fonts from "@/@core/theme/fonts";
 import themeConfig from "@/configs/themeConfig";
 import MobileMenu from "./components/MobileMenu";
 
-const logoImage = "images/logo.png";
+const logoImage = "/images/logo.png";
 
 const Header = () => {
   const theme = useTheme();
@@ -109,7 +109,7 @@ const Header = () => {
                     gap: 3,
                   }}
                 >
-                  <Link component={NextLink} href="portfolio" title="Portfolio">
+                  <Link component={NextLink} href="/portfolio" title="Portfolio">
                     <Button
                       size={isSmall ? "small" : undefined}
                       variant="outlined"
@@ -130,7 +130,7 @@ const Header = () => {
                       Client Gallery
                     </Button>
                   </Link>
-                  <Link component={NextLink} href="offerings" title="Offerings">
+                  <Link component={NextLink} href="/offerings" title="Offerings">
                     <Button
                       size={isSmall ? "small" : undefined}
                       variant="outlined"

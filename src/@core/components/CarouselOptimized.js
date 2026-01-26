@@ -100,12 +100,12 @@ const CarouselOptimized = ({ slides }) => {
                 <source
                   type="image/avif"
                   srcSet={slide.avif.set}
-                  sizes="(max-width: 600px) 90v, 800px"
+                  // sizes="(max-width: 600px) 90v, 800px"
                 />
                 <source
                   type="image/webp"
                   srcSet={slide.webp.set}
-                  sizes="(max-width: 600px) 90v, 800px"
+                  // sizes="(max-width: 600px) 90v, 800px"
                 />
                 <InnerEmblaSlide
                   src={slide.jpg}

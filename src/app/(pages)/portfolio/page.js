@@ -55,12 +55,12 @@ const Page = () => {
                   <source
                     type="image/avif"
                     srcSet={image.avif.set}
-                    sizes="(max-width: 600px) 90v, 800px"
+                    // sizes="(max-width: 600px) 90v, 800px"
                   />
                   <source
                     type="image/webp"
                     srcSet={image.webp.set}
-                    sizes="(max-width: 600px) 90v, 800px"
+                    // sizes="(max-width: 600px) 90v, 800px"
                   />
                   <img
                     src={image.jpg}

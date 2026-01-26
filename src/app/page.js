@@ -14,6 +14,7 @@ import {
 import nextConfig from "next.config.mjs";
 import themeConfig from "@/configs/themeConfig";
 import Carousel from "@/@core/components/CarouselOptimized";
+import NextLink from 'next/link'
 
 const familyImage = { name: 'fam_4', avif: { set: 'images/portfolio/fam_4-400.avif 400w, images/portfolio/fam_4-800.avif 800w, images/portfolio/fam_4-1200.avif 1200w, images/portfolio/fam_4-1600.avif 1600w' }, webp: { set: 'images/portfolio/fam_4-400.webp 400w, images/portfolio/fam_4-800.webp 800w, images/portfolio/fam_4-1200.webp 1200w, images/portfolio/fam_4-1600.webp 1600w' }, jpg: 'images/portfolio/fam_4.jpg' };
 const maternityImage = { name: 'mat_5', avif: { set: 'images/portfolio/mat_5-400.avif 400w, images/portfolio/mat_5-800.avif 800w, images/portfolio/mat_5-1200.avif 1200w, images/portfolio/mat_5-1600.avif 1600w' }, webp: { set: 'images/portfolio/mat_5-400.webp 400w, images/portfolio/mat_5-800.webp 800w, images/portfolio/mat_5-1200.webp 1200w, images/portfolio/mat_5-1600.webp 1600w' }, jpg: 'images/portfolio/mat_5.jpg' };
@@ -165,152 +166,160 @@ const Home = () => {
       </Grid>
       <Grid container padding={5} rowSpacing={15} columnSpacing={10}>
         <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3,  lg: 0 }}>
-          <Card>
-            <CardMedia sx={{ width: "100%", height: "auto" }}>
-              <picture>
-                  <source
-                    type="image/avif"
-                    srcSet={graduationImage.avif.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <source
-                    type="image/webp"
-                    srcSet={graduationImage.webp.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <img
-                    src={graduationImage.jpg}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      borderRadius: "2px",
-                    }}
-                    alt={graduationImage.name}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </picture>
-              </CardMedia>
-            <CardHeader
-              title={
-                <Typography variant="h4" align="center">
-                  Seniors
-                </Typography>
-              }
-              sx={{ padding: 1 }}
-            />
-          </Card>
+          <NextLink href='/offerings/seniors' title='Seniors' style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Card>
+              <CardMedia sx={{ width: "100%", height: "auto" }}>
+                <picture>
+                    <source
+                      type="image/avif"
+                      srcSet={graduationImage.avif.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <source
+                      type="image/webp"
+                      srcSet={graduationImage.webp.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <img
+                      src={graduationImage.jpg}
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        borderRadius: "2px",
+                      }}
+                      alt={graduationImage.name}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </CardMedia>
+              <CardHeader
+                title={
+                  <Typography variant="h4" align="center">
+                    Seniors
+                  </Typography>
+                }
+                sx={{ padding: 1 }}
+              />
+            </Card>
+          </NextLink>
         </Grid>
         <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3,  lg: 0 }}>
-          <Card>
-            <CardMedia sx={{ width: "100%", height: "auto" }}>
-              <picture>
-                  <source
-                    type="image/avif"
-                    srcSet={engageImage.avif.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <source
-                    type="image/webp"
-                    srcSet={engageImage.webp.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <img
-                    src={engageImage.jpg}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      borderRadius: "2px",
-                    }}
-                    alt={engageImage.name}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </picture>
-              </CardMedia>
-            <CardHeader
-              title={
-                <Typography variant="h4" align="center">
-                  Engagement
-                </Typography>
-              }
-              sx={{ padding: 1 }}
-            />
-          </Card>
+          <NextLink href='/offerings/engagement' title='Engagement' style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Card>
+              <CardMedia sx={{ width: "100%", height: "auto" }}>
+                <picture>
+                    <source
+                      type="image/avif"
+                      srcSet={engageImage.avif.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <source
+                      type="image/webp"
+                      srcSet={engageImage.webp.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <img
+                      src={engageImage.jpg}
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        borderRadius: "2px",
+                      }}
+                      alt={engageImage.name}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </CardMedia>
+              <CardHeader
+                title={
+                  <Typography variant="h4" align="center">
+                    Engagement
+                  </Typography>
+                }
+                sx={{ padding: 1 }}
+              />
+            </Card>
+          </NextLink>
         </Grid>
         <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3,  lg: 0 }}>
-          <Card>
-            <CardMedia sx={{ width: "100%", height: "auto" }}>
-              <picture>
-                  <source
-                    type="image/avif"
-                    srcSet={maternityImage.avif.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <source
-                    type="image/webp"
-                    srcSet={maternityImage.webp.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <img
-                    src={maternityImage.jpg}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      borderRadius: "2px",
-                    }}
-                    alt={maternityImage.name}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </picture>
-              </CardMedia>
-            <CardHeader
-              title={
-                <Typography variant="h4" align="center">
-                  Birth & Maternity
-                </Typography>
-              }
-              sx={{ padding: 1 }}
-            />
-          </Card>
+          <NextLink href='/offerings/birth-maternity' title='Birth & Maternity' style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Card>
+              <CardMedia sx={{ width: "100%", height: "auto" }}>
+                <picture>
+                    <source
+                      type="image/avif"
+                      srcSet={maternityImage.avif.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <source
+                      type="image/webp"
+                      srcSet={maternityImage.webp.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <img
+                      src={maternityImage.jpg}
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        borderRadius: "2px",
+                      }}
+                      alt={maternityImage.name}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </CardMedia>
+              <CardHeader
+                title={
+                  <Typography variant="h4" align="center">
+                    Birth & Maternity
+                  </Typography>
+                }
+                sx={{ padding: 1 }}
+              />
+            </Card>
+          </NextLink>
         </Grid>
         <Grid size={{ xs: 10, sm: 6, lg: 3 }} offset={{ xs: 1, sm: 3, lg: 0 }}>
-          <Card>
-            <CardMedia sx={{ width: "100%", height: "auto" }}>
-              <picture>
-                  <source
-                    type="image/avif"
-                    srcSet={familyImage.avif.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <source
-                    type="image/webp"
-                    srcSet={familyImage.webp.set}
-                    sizes="(max-width: 600px) 90v, 800px"
-                  />
-                  <img
-                    src={familyImage.jpg}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      borderRadius: "2px",
-                    }}
-                    alt={familyImage.name}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </picture>
-              </CardMedia>
-            <CardHeader
-              title={
-                <Typography variant="h4" align="center">
-                  Family
-                </Typography>
-              }
-              sx={{ padding: 1 }}
-            />
-          </Card>
+          <NextLink href='/offerings/family' title='Family' style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Card>
+              <CardMedia sx={{ width: "100%", height: "auto" }}>
+                <picture>
+                    <source
+                      type="image/avif"
+                      srcSet={familyImage.avif.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <source
+                      type="image/webp"
+                      srcSet={familyImage.webp.set}
+                      // sizes="(max-width: 600px) 90v, 800px"
+                    />
+                    <img
+                      src={familyImage.jpg}
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        borderRadius: "2px",
+                      }}
+                      alt={familyImage.name}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </CardMedia>
+              <CardHeader
+                title={
+                  <Typography variant="h4" align="center">
+                    Family
+                  </Typography>
+                }
+                sx={{ padding: 1 }}
+              />
+            </Card>
+          </NextLink>
         </Grid>
       </Grid>
     </>

@@ -48,13 +48,13 @@ const MobileMenu = () => {
           },
         }}
       >
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "portfolio", false)}>
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/portfolio", false)}>
           <Typography variant='button'>Portfolio</Typography>
         </MenuItem>
         <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "https://portfolio.btibbettphotography.com", true)}>
           <Typography variant='button'>Client Gallery</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "offerings", false)}>
+        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/offerings", false)}>
           <Typography variant='button'>Offerings</Typography>
         </MenuItem>
         <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "https://portfolio.btibbettphotography.com/contact", true)}>
