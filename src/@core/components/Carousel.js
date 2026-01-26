@@ -87,16 +87,6 @@ const Carousel = ({ slides }) => {
 
   return (
     <>
-      <Head>
-      { slides.map((slide, i) => (
-        <link
-        key={i}
-          rel='preload'
-          href={`https://theconduit.church/${slide.src}`}
-          as='image'
-        />
-      ))}
-      </Head>
       <Embla ref={emblaRef}>
         <EmblaContainer>
           {slides.map((slide) => (

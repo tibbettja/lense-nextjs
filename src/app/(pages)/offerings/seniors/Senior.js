@@ -90,7 +90,7 @@ const Senior = () => {
             <ListItem>
               <Typography variant="body2">
                 <Link
-                  href="h/ttps://services.btibbettphotography.com/contact"
+                  href="https://portfolio.btibbettphotography.com/contact"
                   title="Inquire Now!"
                 >
                   Inquire Now!
