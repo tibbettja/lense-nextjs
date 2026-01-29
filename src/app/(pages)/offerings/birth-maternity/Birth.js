@@ -76,7 +76,7 @@ const Birth = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                100 Edited, Digital Images in both Color and B&W
+                At least 100 Edited, Digital Images in both Color and B&W
               </Typography>
             </ListItem>
             <ListItem>

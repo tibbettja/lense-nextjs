@@ -76,7 +76,7 @@ const Fresh48 = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60-120 minute Session (on baby-time!) & 30 Digital Images
+                60-120 minute Session (on baby-time!) & at least 30 Digital Images
               </Typography>
             </ListItem>
             <ListItem>

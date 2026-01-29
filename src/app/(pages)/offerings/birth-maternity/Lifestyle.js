@@ -76,7 +76,7 @@ const Lifestyle = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60-120 minute Session (on baby-time!) & 30 Digital Images
+                60-120 minute Session (on baby-time!) & 30 Digital Images (minimum)
               </Typography>
             </ListItem>
             <ListItem>
