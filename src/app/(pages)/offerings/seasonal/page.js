@@ -15,6 +15,6 @@ const Page = () => {
 export default Page;
 
 export const metadata = {
-  title: `Seasonal Specials | ${themeConfig.appDescription}`,
-  description: themeConfig.appDescription,
+  title: `Seasonal Specials | ${themeConfig.appName}`,
+  description: themeConfig.description,
 };

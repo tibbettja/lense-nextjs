@@ -36,6 +36,6 @@ const Page = () => {
 export default Page;
 
 export const metadata = {
-  title: `Schedule | ${themeConfig.appDescription}`,
-  description: themeConfig.appDescription,
+  title: `Schedule | ${themeConfig.appName}`,
+  description: themeConfig.description,
 };

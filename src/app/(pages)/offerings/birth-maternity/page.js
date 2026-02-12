@@ -19,6 +19,6 @@ const Page = () => {
 export default Page;
 
 export const metadata = {
-  title: `Birth & Maternity Portraits | ${themeConfig.appDescription}`,
-  description: themeConfig.appDescription,
+  title: `Birth & Maternity Portraits | ${themeConfig.appName}`,
+  description: themeConfig.description,
 };

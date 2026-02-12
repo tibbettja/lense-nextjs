@@ -156,8 +156,8 @@ const ServerApp = ({ children }) => {
 export default ServerApp;
 
 export const metadata = {
-  title: themeConfig.appDescription,
-  description: themeConfig.appDescription,
+  title: themeConfig.title,
+  description: themeConfig.description,
 };
 
 export const viewport = {

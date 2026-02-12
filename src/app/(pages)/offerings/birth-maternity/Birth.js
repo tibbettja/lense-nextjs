@@ -86,7 +86,7 @@ const Birth = () => {
             </ListItem>
             <ListItem>
               <Typography variant="body2">
-                On Call from 37 weeks until your baby is born (In the event that
+                On Call from 36 weeks until your baby is born (In the event that
                 your baby arrives early, I will make best attempt to be present)
               </Typography>
             </ListItem>

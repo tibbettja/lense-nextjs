@@ -15,6 +15,6 @@ const Page = () => {
 export default Page;
 
 export const metadata = {
-  title: `Senior Portraits | ${themeConfig.appDescription}`,
-  description: themeConfig.appDescription,
+  title: `Senior Portraits | ${themeConfig.appName}`,
+  description: themeConfig.description,
 };

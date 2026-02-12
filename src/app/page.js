@@ -63,8 +63,7 @@ const Home = () => {
         </Grid>
         <Grid size={{ xs: 10, lg: 8 }} offset={{ xs: 1, lg: 2 }}>
           <Typography variant="h4" align="center">
-            {themeConfig.appName} captures the joy and comfort of the Lake
-            Norman area through intimate birth and family photography.
+            {themeConfig.appName} is a Lake Norman family and lifestyle photographer serving families throughout Mooresville, Cornelius, Davidson, Huntersville, and the greater Charlotte, North Carolina area.
           </Typography>
         </Grid>
         <Grid
@@ -127,37 +126,32 @@ const Home = () => {
                   Welcome.
                 </Typography>
                 <Typography
-                  variant="button"
+                  variant="body2"
                   align="center"
-                  color="primary.light"
+                  color="info.contrastText"
                 >
-                  I'm so glad you're here!
+                  I specialize in documenting real connection; quiet moments, joyful chaos, and the in-between seasons of family life with a relaxed, natural, and timely approach that allows you to simply be present.
                 </Typography>
                 <Typography
                   variant="body2"
                   align="center"
                   color="info.contrastText"
                 >
-                  I believe whole-heartedly documenting your family is an
-                  investment you will never regret.
+                  As a family photographer in Mooresville, NC, my goal is to create images that feel honest and real. Whether we're meeting for an outdoor session or photographing your family at home, sessions are designed to feel comfortable and genuine.
                 </Typography>
                 <Typography
                   variant="body2"
                   align="center"
                   color="info.contrastText"
                 >
-                  I'm Brooke Tibbett, a lifestyle photographer serving families
-                  in the greater Lake Norman area of NC.
+                  In addition to family sessions, I offer maternity, newborn, and birth photography for families in the Lake Norman area. These seasons move quickly, and they deserve to be documented with care and respect. I have a huge passion for documenting these seasons of life and consider it a great honor to be a part of these big family moments.
                 </Typography>
                 <Typography
                   variant="body2"
                   align="center"
                   color="info.contrastText"
                 >
-                  My passion rests in capturing moments of authentic connection.
-                  By gently guiding you with prompts and poses to set your
-                  family at ease, we'll create photographs that will be
-                  cherished for a lifetime.
+                  If you're looking for a photographer who values authenticity, emotion, and storytelling over perfection, I would love to work with you. B. Tibbett Photography proudly serves families throughout Lake Norman, NC and the greater Charlotte area, creating timeless images that honor the beauty of everyday life.
                 </Typography>
               </Grid>
             </Grid>
@@ -329,6 +323,6 @@ const Home = () => {
 export default Home;
 
 export const metadata = {
-  title: themeConfig.appDescription,
-  description: themeConfig.appDescription,
+  title: themeConfig.title,
+  description: themeConfig.description,
 };

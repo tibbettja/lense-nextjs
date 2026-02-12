@@ -85,6 +85,6 @@ const Page = () => {
 export default Page;
 
 export const metadata = {
-  title: `Portfolio | ${themeConfig.appDescription}`,
-  description: themeConfig.appDescription,
+  title: `Portfolio | ${themeConfig.appName}`,
+  description: themeConfig.description,
 };

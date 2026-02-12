@@ -81,7 +81,7 @@ const Fresh48 = () => {
             </ListItem>
             <ListItem>
               <Typography variant="body2">
-                Typically captured within the first 48 hours of life
+                Typically captured within the first 10 days of life
               </Typography>
             </ListItem>
             <ListItem>
