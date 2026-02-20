@@ -19,7 +19,9 @@ const logoImage = "/images/logo.png";
 
 const Header = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("lg"), { defaultMatches: true });
+  const isMobile = useMediaQuery(theme.breakpoints.down("lg"), {
+    defaultMatches: true,
+  });
   const isSmall = useMediaQuery(theme.breakpoints.down("xl"));
   const isXSmall = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -31,7 +33,7 @@ const Header = () => {
         left: 0,
         width: "100%",
         bgcolor: theme.palette.background.default,
-        zIndex: 3
+        zIndex: 3,
       }}
     >
       <Grid
@@ -93,66 +95,74 @@ const Header = () => {
                   component={NextLink}
                   sx={{ textDecoration: "none !important" }}
                 >
-                  <Typography variant={isXSmall ? "logo3" : isSmall ? "logo2" : "logo1"}>
+                  <Typography
+                    variant={isXSmall ? "logo3" : isSmall ? "logo2" : "logo1"}
+                  >
                     {themeConfig.appName}
                   </Typography>
                 </Link>
               </Box>
-              { isMobile ? (
-                <MobileMenu />
-              ) : (
-                <Box
-                  sx={{
-                    display: "flex",
-                    justifyContent: "space-evenly",
-                    alignItems: "center",
-                    gap: 3,
-                  }}
-                >
-                  <Link component={NextLink} href="/portfolio" title="Portfolio">
-                    <Button
-                      size={isSmall ? "small" : undefined}
-                      variant="outlined"
-                    >
-                      Portfolio
-                    </Button>
-                  </Link>
-                  <Link
-                    component={NextLink}
-                    href="https://portfolio.btibbettphotography.com"
-                    title="Client Gallery"
-                    target="_blank"
+              {isMobile
+                ? <MobileMenu />
+                : <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "space-evenly",
+                      alignItems: "center",
+                      gap: 3,
+                    }}
                   >
-                    <Button
-                      size={isSmall ? "small" : undefined}
-                      variant="outlined"
+                    <Link
+                      component={NextLink}
+                      href="/portfolio"
+                      title="Portfolio"
                     >
-                      Client Gallery
-                    </Button>
-                  </Link>
-                  <Link component={NextLink} href="/offerings" title="Offerings">
-                    <Button
-                      size={isSmall ? "small" : undefined}
-                      variant="outlined"
+                      <Button
+                        size={isSmall ? "small" : undefined}
+                        variant="outlined"
+                      >
+                        Portfolio
+                      </Button>
+                    </Link>
+                    <Link
+                      component={NextLink}
+                      href="https://portfolio.btibbettphotography.com"
+                      title="Client Gallery"
+                      target="_blank"
                     >
-                      Offerings
-                    </Button>
-                  </Link>
-                  <Link
-                    component={NextLink}
-                    href="https://portfolio.btibbettphotography.com/contact"
-                    title="Contact Us"
-                    target="_blank"
-                  >
-                    <Button
-                      size={isSmall ? "small" : undefined}
-                      variant="outlined"
+                      <Button
+                        size={isSmall ? "small" : undefined}
+                        variant="outlined"
+                      >
+                        Client Gallery
+                      </Button>
+                    </Link>
+                    <Link
+                      component={NextLink}
+                      href="/offerings"
+                      title="Offerings"
                     >
-                      Contact Us
-                    </Button>
-                  </Link>
-                </Box>
-              )}
+                      <Button
+                        size={isSmall ? "small" : undefined}
+                        variant="outlined"
+                      >
+                        Offerings
+                      </Button>
+                    </Link>
+                    <Link
+                      component={NextLink}
+                      href="https://portfolio.btibbettphotography.com/contact"
+                      title="Contact Us"
+                      target="_blank"
+                    >
+                      <Button
+                        size={isSmall ? "small" : undefined}
+                        variant="outlined"
+                      >
+                        Contact Us
+                      </Button>
+                    </Link>
+                  </Box>}
             </Box>
           </Box>
         </Grid>

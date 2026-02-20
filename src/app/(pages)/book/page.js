@@ -23,10 +23,9 @@ const Page = () => {
         spacing={4}
       >
         <Grid size={12}>
-          <Typography
-            variant="h2"
-            textAlign="center"
-          >Schedule</Typography>
+          <Typography variant="h2" textAlign="center">
+            Schedule
+          </Typography>
         </Grid>
       </Grid>
     </Grid>

@@ -8,8 +8,9 @@ const themeConfig = {
   navigationSize: 250,
   disableRipple: false,
   verticalNavToggleType: "collapse",
-  title: 'Mooresville Family & Birth Photographer | B. Tibbett Photography',
-  description: 'Professional family, birth, maternity & newborn photographer serving Lake Norman & Greater Charlotte Area in NC'
+  title: "Mooresville Family & Birth Photographer | B. Tibbett Photography",
+  description:
+    "Professional family, birth, maternity & newborn photographer serving Lake Norman & Greater Charlotte Area in NC",
 };
 
 export default themeConfig;

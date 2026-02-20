@@ -18,7 +18,7 @@ const ServerApp = ({ children }) => {
   return (
     <html lang="en">
       <head>
-        <meta name='viewport' content='width=device-width' />
+        <meta name="viewport" content="width=device-width" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

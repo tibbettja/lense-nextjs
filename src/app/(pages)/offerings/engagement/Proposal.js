@@ -13,6 +13,9 @@ import {
   styled,
 } from "@mui/material";
 
+import Photos from "@/contants";
+const image = Photos.offerings.engagement.proposal;
+
 const PicHolder = styled(Grid)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
@@ -21,17 +24,6 @@ const PicHolder = styled(Grid)(({ theme }) => ({
     justifyContent: "end",
   },
 }));
-
-const image = {
-  name: "eng_prp",
-  avif: {
-    set: "/images/services/eng_prp-400.avif 400w, /images/services/eng_prp-800.avif 800w, /images/services/eng_prp-1200.avif 1200w, /images/services/eng_prp-1600.avif 1600w",
-  },
-  webp: {
-    set: "/images/services/eng_prp-400.webp 400w, /images/services/eng_prp-800.webp 800w, /images/services/eng_prp-1200.webp 1200w, /images/services/eng_prp-1600.webp 1600w",
-  },
-  jpg: "/images/services/eng_prp.jpg",
-};
 
 const Proposal = () => {
   return (
@@ -67,7 +59,7 @@ const Proposal = () => {
                 height: "auto",
                 borderRadius: "2px",
               }}
-              alt={image.name}
+              alt={image.alt}
               loading="lazy"
               decoding="async"
             />

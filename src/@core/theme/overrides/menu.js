@@ -16,7 +16,7 @@ const Menu = (theme) => ({
           fontSize: "14pt",
           color: theme.palette.text.primary,
           fontFamily: fonts.header.style.fontFamily,
-        }
+        },
       },
     },
   },

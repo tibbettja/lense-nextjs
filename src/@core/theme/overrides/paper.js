@@ -5,7 +5,7 @@ const Paper = (theme) => ({
         backgroundImage: "none",
         borderRadius: 2,
         boxShadow: "unset",
-      }
+      },
     },
   },
 });

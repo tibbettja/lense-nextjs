@@ -1,11 +1,11 @@
 import {
   Cormorant_Unicase,
   Cormorant_Garamond,
-  Cormorant_Infant
+  Cormorant_Infant,
 } from "next/font/google";
 
 const logo = Cormorant_Unicase({
-  weight: ["300","400","500","600","700"],
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
   display: "auto",
   style: ["normal"],
@@ -13,15 +13,15 @@ const logo = Cormorant_Unicase({
 });
 
 const header = Cormorant_Garamond({
-  weight: ["300","400","500","600","700"],
-  subsets: ['latin'],
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
   display: "auto",
-  style: ['normal'],
-  variable: "--font-header"
-})
+  style: ["normal"],
+  variable: "--font-header",
+});
 
 const body = Cormorant_Infant({
-  weight: ["300","400","500","600","700"],
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
   display: "auto",
   style: ["normal"],
@@ -29,7 +29,7 @@ const body = Cormorant_Infant({
 });
 
 const subtitle = Cormorant_Infant({
-  weight: ["300","400","500","600","700"],
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
   display: "auto",
   style: ["normal", "italic"],

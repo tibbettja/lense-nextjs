@@ -13,6 +13,9 @@ import {
   styled,
 } from "@mui/material";
 
+import Photos from "@/contants";
+const image = Photos.offerings.birthMaternity.fresh48;
+
 const PicHolder = styled(Grid)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
@@ -21,17 +24,6 @@ const PicHolder = styled(Grid)(({ theme }) => ({
     justifyContent: "end",
   },
 }));
-
-const image = {
-  name: "bm_f48",
-  avif: {
-    set: "/images/services/bm_f48-400.avif 400w, /images/services/bm_f48-800.avif 800w, /images/services/bm_f48-1200.avif 1200w, /images/services/bm_f48-1600.avif 1600w",
-  },
-  webp: {
-    set: "/images/services/bm_f48-400.webp 400w, /images/services/bm_f48-800.webp 800w, /images/services/bm_f48-1200.webp 1200w, /images/services/bm_f48-1600.webp 1600w",
-  },
-  jpg: "/images/services/bm_f48.jpg",
-};
 
 const Fresh48 = () => {
   return (
@@ -66,7 +58,7 @@ const Fresh48 = () => {
                 height: "auto",
                 borderRadius: "2px",
               }}
-              alt={image.name}
+              alt={image.alt}
               loading="lazy"
               decoding="async"
             />
@@ -76,7 +68,8 @@ const Fresh48 = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60-120 minute Session (on baby-time!) & at least 30 Digital Images
+                60-120 minute Session (on baby-time!) & at least 30 Digital
+                Images
               </Typography>
             </ListItem>
             <ListItem>

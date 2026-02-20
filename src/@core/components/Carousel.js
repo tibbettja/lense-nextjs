@@ -1,24 +1,24 @@
 "use client";
 
-import * as React from 'react'
+import * as React from "react";
 
 import { Box, styled, Chip } from "@mui/material";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Fade from "embla-carousel-fade";
 import Head from "next/head";
-import AutoScroll from 'embla-carousel-auto-scroll';
+import AutoScroll from "embla-carousel-auto-scroll";
 
 const Embla = styled(Box)(({ theme }) => ({
   overflow: "hidden",
   width: "100%",
-  position: 'relative',
+  position: "relative",
 }));
 
 const EmblaContainer = styled(Box)(({ theme }) => ({
   display: "flex",
   width: "100%",
-  marginLeft: '-10px'
+  marginLeft: "-10px",
 }));
 
 const EmblaSlide = styled(Box)(({ theme }) => ({
@@ -27,14 +27,14 @@ const EmblaSlide = styled(Box)(({ theme }) => ({
 
 const InnerEmblaSlide = styled("img")(({ theme }) => ({
   height: "50vh",
-  objectFit: 'contain',
-  paddingLeft: '10px'
+  objectFit: "contain",
+  paddingLeft: "10px",
 }));
 
 const EmblaControls = styled(Box)(({ theme }) => ({
   position: "absolute",
-  bottom: '5%',
-  left: 'calc(50% - 47.5px)'
+  bottom: "5%",
+  left: "calc(50% - 47.5px)",
 }));
 
 const EmblaDots = styled(Box)(({ theme }) => ({
@@ -42,7 +42,7 @@ const EmblaDots = styled(Box)(({ theme }) => ({
   flexWrap: "wrap",
   justifyContent: "center",
   alignItems: "center",
-  gap: 3
+  gap: 3,
 }));
 
 const DotButton = styled(Chip)(({ theme }) => ({
@@ -51,47 +51,49 @@ const DotButton = styled(Chip)(({ theme }) => ({
 }));
 
 const Carousel = ({ slides }) => {
-
-  const [selectedIndex, setSelectedIndex] = React.useState(0)
-  const [scrollSnaps, setScrollSnaps] = React.useState([])
+  const [selectedIndex, setSelectedIndex] = React.useState(0);
+  const [scrollSnaps, setScrollSnaps] = React.useState([]);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     // Autoplay({ delay: 5000 }),
     // Fade()
-    AutoScroll({ startDelay: 1000 })
+    AutoScroll({ startDelay: 1000 }),
   ]);
 
   const onDotButtonClick = React.useCallback(
     (index) => {
-      if (!emblaApi) return
-      emblaApi.scrollTo(index)
+      if (!emblaApi) return;
+      emblaApi.scrollTo(index);
     },
-    [emblaApi]
-  )
+    [emblaApi],
+  );
 
   const onInit = React.useCallback((emblaApi) => {
-    setScrollSnaps(emblaApi.scrollSnapList())
-  }, [])
+    setScrollSnaps(emblaApi.scrollSnapList());
+  }, []);
 
   const onSelect = React.useCallback((emblaApi) => {
-    setSelectedIndex(emblaApi.selectedScrollSnap())
-  }, [])
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+  }, []);
 
   React.useEffect(() => {
-    if (!emblaApi) return
+    if (!emblaApi) return;
 
-    onInit(emblaApi)
-    onSelect(emblaApi)
-    emblaApi.on('reInit', onInit).on('reInit', onSelect).on('select', onSelect)
-  }, [emblaApi, onInit, onSelect])
+    onInit(emblaApi);
+    onSelect(emblaApi);
+    emblaApi.on("reInit", onInit).on("reInit", onSelect).on("select", onSelect);
+  }, [emblaApi, onInit, onSelect]);
 
   return (
     <>
       <Embla ref={emblaRef}>
         <EmblaContainer>
           {slides.map((slide) => (
-            <EmblaSlide key={slide.key} style={{ flex: `0 0 auto`, ...slide.style }}>
-                <InnerEmblaSlide src={slide.src} alt={slide.key} />
+            <EmblaSlide
+              key={slide.key}
+              style={{ flex: `0 0 auto`, ...slide.style }}
+            >
+              <InnerEmblaSlide src={slide.src} alt={slide.alt} />
             </EmblaSlide>
           ))}
         </EmblaContainer>
@@ -102,7 +104,10 @@ const Carousel = ({ slides }) => {
                 key={index}
                 onClick={() => onDotButtonClick(index)}
                 color={index === selectedIndex ? "bright" : "gray"}
-                sx={{ border: index !== selectedIndex ? 'solid 1px white' : undefined }}
+                sx={{
+                  border:
+                    index !== selectedIndex ? "solid 1px white" : undefined,
+                }}
               />
             ))}
           </EmblaDots>

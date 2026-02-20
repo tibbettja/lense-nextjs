@@ -16,7 +16,7 @@ const MobileMenu = () => {
   const handleClose = (event, id, blank) => {
     event.preventDefault();
     if (id && !blank) router.push(id);
-    if (id && blank) router.push(id, { target: '_blank' })
+    if (id && blank) router.push(id, { target: "_blank" });
     setAnchorEl(null);
   };
 
@@ -43,22 +43,42 @@ const MobileMenu = () => {
           },
           paper: {
             sx: {
-              width: "100vw"
+              width: "100vw",
             },
           },
         }}
       >
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/portfolio", false)}>
-          <Typography variant='button'>Portfolio</Typography>
+        <MenuItem
+          sx={{ textTransform: "lowercase" }}
+          onClick={(e) => handleClose(e, "/portfolio", false)}
+        >
+          <Typography variant="button">Portfolio</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "https://portfolio.btibbettphotography.com", true)}>
-          <Typography variant='button'>Client Gallery</Typography>
+        <MenuItem
+          sx={{ textTransform: "lowercase" }}
+          onClick={(e) =>
+            handleClose(e, "https://portfolio.btibbettphotography.com", true)
+          }
+        >
+          <Typography variant="button">Client Gallery</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "/offerings", false)}>
-          <Typography variant='button'>Offerings</Typography>
+        <MenuItem
+          sx={{ textTransform: "lowercase" }}
+          onClick={(e) => handleClose(e, "/offerings", false)}
+        >
+          <Typography variant="button">Offerings</Typography>
         </MenuItem>
-        <MenuItem sx={{ textTransform: 'lowercase' }} onClick={(e) => handleClose(e, "https://portfolio.btibbettphotography.com/contact", true)}>
-          <Typography variant='button'>Contact Us</Typography>
+        <MenuItem
+          sx={{ textTransform: "lowercase" }}
+          onClick={(e) =>
+            handleClose(
+              e,
+              "https://portfolio.btibbettphotography.com/contact",
+              true,
+            )
+          }
+        >
+          <Typography variant="button">Contact Us</Typography>
         </MenuItem>
       </Menu>
     </>

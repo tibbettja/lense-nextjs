@@ -13,6 +13,9 @@ import {
 
 import NextLink from "next/link";
 
+import Photos from "@/contants";
+const image = Photos.offerings.super.family;
+
 const PicHolder = styled(Grid)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
@@ -21,17 +24,6 @@ const PicHolder = styled(Grid)(({ theme }) => ({
     justifyContent: "end",
   },
 }));
-
-const image = {
-  name: "fam_ovw",
-  avif: {
-    set: "/images/services/fam_ovw-400.avif 400w, /images/services/fam_ovw-800.avif 800w, /images/services/fam_ovw-1200.avif 1200w, /images/services/fam_ovw-1600.avif 1600w",
-  },
-  webp: {
-    set: "/images/services/fam_ovw-400.webp 400w, /images/services/fam_ovw-800.webp 800w, /images/services/fam_ovw-1200.webp 1200w, /images/services/fam_ovw-1600.webp 1600w",
-  },
-  jpg: "/images/services/fam_ovw.jpg",
-};
 
 const SuperFamily = () => {
   return (
@@ -56,7 +48,7 @@ const SuperFamily = () => {
                 height: "auto",
                 borderRadius: "2px",
               }}
-              alt={image.name}
+              alt={image.alt}
               loading="lazy"
               decoding="async"
             />

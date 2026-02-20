@@ -13,6 +13,9 @@ import {
   styled,
 } from "@mui/material";
 
+import Photos from "@/contants";
+const image = Photos.offerings.birthMaternity.birth;
+
 const PicHolder = styled(Grid)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
@@ -21,17 +24,6 @@ const PicHolder = styled(Grid)(({ theme }) => ({
     justifyContent: "end",
   },
 }));
-
-const image = {
-  name: "bm_brt",
-  avif: {
-    set: "/images/services/bm_brt-400.avif 400w, /images/services/bm_brt-800.avif 800w, /images/services/bm_brt-1200.avif 1200w, /images/services/bm_brt-1600.avif 1600w",
-  },
-  webp: {
-    set: "/images/services/bm_brt-400.webp 400w, /images/services/bm_brt-800.webp 800w, /images/services/bm_brt-1200.webp 1200w, /images/services/bm_brt-1600.webp 1600w",
-  },
-  jpg: "/images/services/bm_brt.jpg",
-};
 
 const Birth = () => {
   return (
@@ -66,7 +58,7 @@ const Birth = () => {
                 height: "auto",
                 borderRadius: "2px",
               }}
-              alt={image.name}
+              alt={image.alt}
               loading="lazy"
               decoding="async"
             />

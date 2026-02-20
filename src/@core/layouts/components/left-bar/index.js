@@ -1,11 +1,20 @@
 "use client";
 
-import { Button, ListItem, Stack, Box, useTheme, Link, Typography } from "@mui/material";
-import NextLink from 'next/link'
+import {
+  Button,
+  ListItem,
+  Stack,
+  Box,
+  useTheme,
+  Link,
+  Typography,
+} from "@mui/material";
+import NextLink from "next/link";
 
 const LeftBar = () => {
   const theme = useTheme();
-  return (<></>
+  return (
+    <></>
     // <Box
     //   sx={{
     //     position: "fixed",

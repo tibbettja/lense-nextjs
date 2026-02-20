@@ -29,18 +29,18 @@ const InnerEmblaSlide = styled("img")(({ theme }) => ({
   height: "50vh",
   objectFit: "contain",
   paddingLeft: "10px",
-  borderRadius: '2px'
+  borderRadius: "2px",
 }));
 
 const EmblaControls = styled(Box)(({ theme }) => ({
   position: "absolute",
   bottom: "5%",
   left: "calc(50% - 47.5px)",
-  backgroundColor: 'rgba(0,0,0,0.33)',
-  backdropFilter: 'blur(8px)',
-  WebkitBackdropFilter: 'blur(8px)',
-  padding: '8px',
-  borderRadius: '13px'
+  backgroundColor: "rgba(0,0,0,0.33)",
+  backdropFilter: "blur(8px)",
+  WebkitBackdropFilter: "blur(8px)",
+  padding: "8px",
+  borderRadius: "13px",
 }));
 
 const EmblaDots = styled(Box)(({ theme }) => ({
@@ -63,7 +63,11 @@ const CarouselOptimized = ({ slides }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     // Autoplay({ delay: 5000 }),
     // Fade()
-    AutoScroll({ startDelay: 500, speed: 1, '(min-width: 768px)': { speed: 2 } }),
+    AutoScroll({
+      startDelay: 500,
+      speed: 1,
+      "(min-width: 768px)": { speed: 2 },
+    }),
   ]);
 
   const onDotButtonClick = React.useCallback(
@@ -71,7 +75,7 @@ const CarouselOptimized = ({ slides }) => {
       if (!emblaApi) return;
       emblaApi.scrollTo(index);
     },
-    [emblaApi]
+    [emblaApi],
   );
 
   const onInit = React.useCallback((emblaApi) => {
@@ -109,7 +113,7 @@ const CarouselOptimized = ({ slides }) => {
                 />
                 <InnerEmblaSlide
                   src={slide.jpg}
-                  alt={slide.name}
+                  alt={slide.alt}
                   loading="lazy"
                   decoding="async"
                 />

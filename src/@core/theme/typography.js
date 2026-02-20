@@ -82,7 +82,7 @@ const Typography = (theme) => {
       fontSize: "14pt",
       color: theme.palette.text.primary,
       fontFamily: fonts.body.style.fontFamily,
-      fontWeight: 300
+      fontWeight: 300,
     },
     body2: {
       letterSpacing: "0.15px",

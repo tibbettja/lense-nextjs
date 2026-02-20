@@ -1,3 +1,3 @@
-const RightBar = () => <></>
+const RightBar = () => <></>;
 
-export default RightBar
+export default RightBar;

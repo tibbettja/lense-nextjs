@@ -4,7 +4,7 @@ const Divider = (theme) => ({
       root: {
         margin: `${theme.spacing(2)} 0`,
         fontSize: "10pt",
-        color: theme.palette.text.disabled
+        color: theme.palette.text.disabled,
       },
     },
   },
