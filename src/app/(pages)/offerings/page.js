@@ -4,6 +4,7 @@ import SuperSenior from "./SuperSenior";
 import SuperEngagement from "./SuperEngagement";
 import SuperMaternity from "./SuperMaternity";
 import SuperFamily from "./SuperFamily";
+import SuperBranding from "./SuperBranding";
 
 const Page = () => {
   return (
@@ -12,6 +13,7 @@ const Page = () => {
       <SuperEngagement />
       <SuperMaternity />
       <SuperFamily />
+      <SuperBranding />
     </Grid>
   );
 };
