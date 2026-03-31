@@ -68,7 +68,7 @@ const Family = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                40 minute Session & 10 Digital Images
+                40 minute Session & 15 Digital Images
               </Typography>
             </ListItem>
             <ListItem>
