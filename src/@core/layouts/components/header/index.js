@@ -151,6 +151,18 @@ const Header = () => {
                     </Link>
                     <Link
                       component={NextLink}
+                      href="/offerings/minis"
+                      title="Minis"
+                    >
+                      <Button
+                        size={isSmall ? "small" : undefined}
+                        variant="outlined"
+                      >
+                        Minis
+                      </Button>
+                    </Link>
+                    <Link
+                      component={NextLink}
                       href="https://portfolio.btibbettphotography.com/contact"
                       title="Contact Us"
                       target="_blank"

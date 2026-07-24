@@ -70,6 +70,12 @@ const MobileMenu = () => {
         </MenuItem>
         <MenuItem
           sx={{ textTransform: "lowercase" }}
+          onClick={(e) => handleClose(e, "/offerings/minis", false)}
+        >
+          <Typography variant="button">Minis</Typography>
+        </MenuItem>
+        <MenuItem
+          sx={{ textTransform: "lowercase" }}
           onClick={(e) =>
             handleClose(
               e,
