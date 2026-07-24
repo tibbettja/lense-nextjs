@@ -1148,6 +1148,28 @@ export const Photos = {
         },
         jpg: "/images/services/eng_eng.jpg",
       },
+      harvest: {
+        name: "fall_minis",
+        alt: "Harvest Minis in Charlotte NC",
+        avif: {
+          set: "/images/services/fall_minis-400.avif 400w, /images/services/fall_minis-800.avif 800w, /images/services/fall_minis-1200.avif 1200w, /images/services/fall_minis-1600.avif 1600w",
+        },
+        webp: {
+          set: "/images/services/fall_minis-400.webp 400w, /images/services/fall_minis-800.webp 800w, /images/services/fall_minis-1200.webp 1200w, /images/services/fall_minis-1600.webp 1600w",
+        },
+        jpg: "/images/services/fall_minis.jpg",
+      },
+      christmas: {
+        name: "cmas_minis",
+        alt: "Christmas Minis in Concord NC",
+        avif: {
+          set: "/images/services/cmas_minis-400.avif 400w, /images/services/cmas_minis-800.avif 800w, /images/services/cmas_minis-1200.avif 1200w, /images/services/cmas_minis-1600.avif 1600w",
+        },
+        webp: {
+          set: "/images/services/cmas_minis-400.webp 400w, /images/services/cmas_minis-800.webp 800w, /images/services/cmas_minis-1200.webp 1200w, /images/services/cmas_minis-1600.webp 1600w",
+        },
+        jpg: "/images/services/cmas_minis.jpg",
+      },
     },
     seniors: {
       seniors: {

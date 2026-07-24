@@ -1,12 +1,17 @@
 import themeConfig from "@/configs/themeConfig";
 import { Grid } from "@mui/material";
 import Valentines from "./Valentines";
+import Harvest from "./Harvest";
+import Christmas from "./Christmas";
 
 const Page = () => {
   return (
-    <Grid container paddingTop={20} paddingX={4}>
+    <Grid container paddingTop={20} paddingX={4} spacing={4}>
       <Grid size={12}>
-        <Valentines />
+        <Harvest />
+      </Grid>
+      <Grid size={12}>
+        <Christmas />
       </Grid>
     </Grid>
   );
@@ -15,6 +20,6 @@ const Page = () => {
 export default Page;
 
 export const metadata = {
-  title: `Seasonal Specials | ${themeConfig.appName}`,
+  title: `Mini Sessions | ${themeConfig.appName}`,
   description: themeConfig.description,
 };
