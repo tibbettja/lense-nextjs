@@ -69,7 +69,7 @@ const Harvest = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                October 3rd @{" "}
+                December 5th @{" "}
                   Marigold Greenhouse in China Grove, NC
               </Typography>
             </ListItem>
