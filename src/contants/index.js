@@ -1161,17 +1161,6 @@ export const Photos = {
         jpg: "images/portfolio/nwb_7.jpg",
       },
       {
-        name: "nwb_8",
-        alt: "Newborn in Troutman NC",
-        avif: {
-          set: "images/portfolio/nwb_8-400.avif 400w, images/portfolio/nwb_8-800.avif 800w, images/portfolio/nwb_8-1200.avif 1200w, images/portfolio/nwb_8-1600.avif 1600w",
-        },
-        webp: {
-          set: "images/portfolio/nwb_8-400.webp 400w, images/portfolio/nwb_8-800.webp 800w, images/portfolio/nwb_8-1200.webp 1200w, images/portfolio/nwb_8-1600.webp 1600w",
-        },
-        jpg: "images/portfolio/nwb_8.jpg",
-      },
-      {
         name: "nwb_9",
         alt: "Newborn in Statesville NC",
         avif: {
