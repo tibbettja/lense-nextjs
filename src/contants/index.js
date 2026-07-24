@@ -177,6 +177,50 @@ export const Photos = {
         },
         jpg: "images/slider/slide_10.jpg",
       },
+      {
+        name: "slide_11",
+        alt: "Family in China Grove NC",
+        avif: {
+          set: "images/slider/slide_11-400.avif 400w, images/slider/slide_11-800.avif 800w, images/slider/slide_11-1200.avif 1200w, images/slider/slide_11-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/slider/slide_11-400.webp 400w, images/slider/slide_11-800.webp 800w, images/slider/slide_11-1200.webp 1200w, images/slider/slide_11-1600.webp 1600w",
+        },
+        jpg: "images/slider/slide_11.jpg",
+      },
+      {
+        name: "slide_12",
+        alt: "Maternity in Concord NC",
+        avif: {
+          set: "images/slider/slide_12-400.avif 400w, images/slider/slide_12-800.avif 800w, images/slider/slide_12-1200.avif 1200w, images/slider/slide_12-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/slider/slide_12-400.webp 400w, images/slider/slide_12-800.webp 800w, images/slider/slide_12-1200.webp 1200w, images/slider/slide_12-1600.webp 1600w",
+        },
+        jpg: "images/slider/slide_12.jpg",
+      },
+      {
+        name: "slide_13",
+        alt: "Birth in Lake Norman NC",
+        avif: {
+          set: "images/slider/slide_13-400.avif 400w, images/slider/slide_13-800.avif 800w, images/slider/slide_13-1200.avif 1200w, images/slider/slide_13-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/slider/slide_13-400.webp 400w, images/slider/slide_13-800.webp 800w, images/slider/slide_13-1200.webp 1200w, images/slider/slide_13-1600.webp 1600w",
+        },
+        jpg: "images/slider/slide_13.jpg",
+      },
+      {
+        name: "slide_14",
+        alt: "Seniors in Mooresville NC",
+        avif: {
+          set: "images/slider/slide_14-400.avif 400w, images/slider/slide_14-800.avif 800w, images/slider/slide_14-1200.avif 1200w, images/slider/slide_14-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/slider/slide_14-400.webp 400w, images/slider/slide_14-800.webp 800w, images/slider/slide_14-1200.webp 1200w, images/slider/slide_14-1600.webp 1600w",
+        },
+        jpg: "images/slider/slide_14.jpg",
+      },
     ],
   },
   portfolio: {
@@ -196,34 +240,89 @@ export const Photos = {
         name: "brnd_2",
         alt: "Commercial Photography in Mooresville NC",
         avif: {
-          set: "images/portfolio/brnd_1-400.avif 400w, images/portfolio/brnd_1-800.avif 800w, images/portfolio/brnd_1-1200.avif 1200w, images/portfolio/brnd_1-1600.avif 1600w",
+          set: "images/portfolio/brnd_2-400.avif 400w, images/portfolio/brnd_2-800.avif 800w, images/portfolio/brnd_2-1200.avif 1200w, images/portfolio/brnd_2-1600.avif 1600w",
         },
         webp: {
-          set: "images/portfolio/brnd_1-400.webp 400w, images/portfolio/brnd_1-800.webp 800w, images/portfolio/brnd_1-1200.webp 1200w, images/portfolio/brnd_1-1600.webp 1600w",
+          set: "images/portfolio/brnd_2-400.webp 400w, images/portfolio/brnd_2-800.webp 800w, images/portfolio/brnd_2-1200.webp 1200w, images/portfolio/brnd_2-1600.webp 1600w",
         },
-        jpg: "images/portfolio/brnd_1.jpg",
+        jpg: "images/portfolio/brnd_2.jpg",
       },
       {
         name: "brnd_3",
         alt: "Branding Photography in Huntersville NC",
         avif: {
-          set: "images/portfolio/brnd_1-400.avif 400w, images/portfolio/brnd_1-800.avif 800w, images/portfolio/brnd_1-1200.avif 1200w, images/portfolio/brnd_1-1600.avif 1600w",
+          set: "images/portfolio/brnd_3-400.avif 400w, images/portfolio/brnd_3-800.avif 800w, images/portfolio/brnd_3-1200.avif 1200w, images/portfolio/brnd_3-1600.avif 1600w",
         },
         webp: {
-          set: "images/portfolio/brnd_1-400.webp 400w, images/portfolio/brnd_1-800.webp 800w, images/portfolio/brnd_1-1200.webp 1200w, images/portfolio/brnd_1-1600.webp 1600w",
+          set: "images/portfolio/brnd_3-400.webp 400w, images/portfolio/brnd_3-800.webp 800w, images/portfolio/brnd_3-1200.webp 1200w, images/portfolio/brnd_3-1600.webp 1600w",
         },
-        jpg: "images/portfolio/brnd_1.jpg",
+        jpg: "images/portfolio/brnd_3.jpg",
       },
       {
         name: "brnd_4",
         alt: "Branding Photography in Mooresville NC",
         avif: {
-          set: "images/portfolio/brnd_1-400.avif 400w, images/portfolio/brnd_1-800.avif 800w, images/portfolio/brnd_1-1200.avif 1200w, images/portfolio/brnd_1-1600.avif 1600w",
+          set: "images/portfolio/brnd_4-400.avif 400w, images/portfolio/brnd_4-800.avif 800w, images/portfolio/brnd_4-1200.avif 1200w, images/portfolio/brnd_4-1600.avif 1600w",
         },
         webp: {
-          set: "images/portfolio/brnd_1-400.webp 400w, images/portfolio/brnd_1-800.webp 800w, images/portfolio/brnd_1-1200.webp 1200w, images/portfolio/brnd_1-1600.webp 1600w",
+          set: "images/portfolio/brnd_4-400.webp 400w, images/portfolio/brnd_4-800.webp 800w, images/portfolio/brnd_4-1200.webp 1200w, images/portfolio/brnd_4-1600.webp 1600w",
         },
-        jpg: "images/portfolio/brnd_1.jpg",
+        jpg: "images/portfolio/brnd_4.jpg",
+      },
+      {
+        name: "brnd_5",
+        alt: "Branding Photography in Landis NC",
+        avif: {
+          set: "images/portfolio/brnd_5-400.avif 400w, images/portfolio/brnd_5-800.avif 800w, images/portfolio/brnd_5-1200.avif 1200w, images/portfolio/brnd_5-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/brnd_5-400.webp 400w, images/portfolio/brnd_5-800.webp 800w, images/portfolio/brnd_5-1200.webp 1200w, images/portfolio/brnd_5-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/brnd_5.jpg",
+      },
+      {
+        name: "brnd_6",
+        alt: "Branding Photography in Salisbury NC",
+        avif: {
+          set: "images/portfolio/brnd_6-400.avif 400w, images/portfolio/brnd_6-800.avif 800w, images/portfolio/brnd_6-1200.avif 1200w, images/portfolio/brnd_6-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/brnd_6-400.webp 400w, images/portfolio/brnd_6-800.webp 800w, images/portfolio/brnd_6-1200.webp 1200w, images/portfolio/brnd_6-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/brnd_6.jpg",
+      },
+      {
+        name: "brnd_7",
+        alt: "Commercial Photography in Hunterville NC",
+        avif: {
+          set: "images/portfolio/brnd_7-400.avif 400w, images/portfolio/brnd_7-800.avif 800w, images/portfolio/brnd_7-1200.avif 1200w, images/portfolio/brnd_7-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/brnd_7-400.webp 400w, images/portfolio/brnd_7-800.webp 800w, images/portfolio/brnd_7-1200.webp 1200w, images/portfolio/brnd_7-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/brnd_7.jpg",
+      },
+      {
+        name: "brnd_8",
+        alt: "Commercial Photography in Troutman NC",
+        avif: {
+          set: "images/portfolio/brnd_8-400.avif 400w, images/portfolio/brnd_8-800.avif 800w, images/portfolio/brnd_8-1200.avif 1200w, images/portfolio/brnd_8-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/brnd_8-400.webp 400w, images/portfolio/brnd_8-800.webp 800w, images/portfolio/brnd_8-1200.webp 1200w, images/portfolio/brnd_8-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/brnd_8.jpg",
+      },
+      {
+        name: "brnd_9",
+        alt: "Branding Photography in Concord NC",
+        avif: {
+          set: "images/portfolio/brnd_9-400.avif 400w, images/portfolio/brnd_9-800.avif 800w, images/portfolio/brnd_9-1200.avif 1200w, images/portfolio/brnd_9-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/brnd_9-400.webp 400w, images/portfolio/brnd_9-800.webp 800w, images/portfolio/brnd_9-1200.webp 1200w, images/portfolio/brnd_9-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/brnd_9.jpg",
       },
       {
         name: "chd_1",
@@ -411,6 +510,50 @@ export const Photos = {
           set: "images/portfolio/chd_17-400.webp 400w, images/portfolio/chd_17-800.webp 800w, images/portfolio/chd_17-1200.webp 1200w, images/portfolio/chd_17-1600.webp 1600w",
         },
         jpg: "images/portfolio/chd_17.jpg",
+      },
+      {
+        name: "chd_18",
+        alt: "Family in Troutman NC",
+        avif: {
+          set: "images/portfolio/chd_18-400.avif 400w, images/portfolio/chd_18-800.avif 800w, images/portfolio/chd_18-1200.avif 1200w, images/portfolio/chd_18-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/chd_18-400.webp 400w, images/portfolio/chd_18-800.webp 800w, images/portfolio/chd_18-1200.webp 1200w, images/portfolio/chd_18-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/chd_18.jpg",
+      },
+      {
+        name: "chd_19",
+        alt: "Family in Statesville NC",
+        avif: {
+          set: "images/portfolio/chd_19-400.avif 400w, images/portfolio/chd_19-800.avif 800w, images/portfolio/chd_19-1200.avif 1200w, images/portfolio/chd_19-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/chd_19-400.webp 400w, images/portfolio/chd_19-800.webp 800w, images/portfolio/chd_19-1200.webp 1200w, images/portfolio/chd_19-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/chd_19.jpg",
+      },
+      {
+        name: "chd_20",
+        alt: "Family in China Grove NC",
+        avif: {
+          set: "images/portfolio/chd_20-400.avif 400w, images/portfolio/chd_20-800.avif 800w, images/portfolio/chd_20-1200.avif 1200w, images/portfolio/chd_20-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/chd_20-400.webp 400w, images/portfolio/chd_20-800.webp 800w, images/portfolio/chd_20-1200.webp 1200w, images/portfolio/chd_20-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/chd_20.jpg",
+      },
+      {
+        name: "chd_21",
+        alt: "Family in Lake Norman NC",
+        avif: {
+          set: "images/portfolio/chd_21-400.avif 400w, images/portfolio/chd_21-800.avif 800w, images/portfolio/chd_21-1200.avif 1200w, images/portfolio/chd_21-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/chd_21-400.webp 400w, images/portfolio/chd_21-800.webp 800w, images/portfolio/chd_21-1200.webp 1200w, images/portfolio/chd_21-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/chd_21.jpg",
       },
       {
         name: "eng_1",
@@ -677,6 +820,17 @@ export const Photos = {
         jpg: "images/portfolio/fam_17.jpg",
       },
       {
+        name: "fam_18",
+        alt: "Family in Sherrils Ford NC",
+        avif: {
+          set: "images/portfolio/fam_18-400.avif 400w, images/portfolio/fam_18-800.avif 800w, images/portfolio/fam_18-1200.avif 1200w, images/portfolio/fam_18-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/fam_18-400.webp 400w, images/portfolio/fam_18-800.webp 800w, images/portfolio/fam_18-1200.webp 1200w, images/portfolio/fam_18-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/fam_18.jpg",
+      },
+      {
         name: "mat_1",
         alt: "Maternity in Charlotte NC",
         avif: {
@@ -820,8 +974,118 @@ export const Photos = {
         jpg: "images/portfolio/mat_13.jpg",
       },
       {
-        name: "nwb_1",
+        name: "mat_16",
+        alt: "Maternity in Statesville NC",
+        avif: {
+          set: "images/portfolio/mat_16-400.avif 400w, images/portfolio/mat_16-800.avif 800w, images/portfolio/mat_16-1200.avif 1200w, images/portfolio/mat_16-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_16-400.webp 400w, images/portfolio/mat_16-800.webp 800w, images/portfolio/mat_16-1200.webp 1200w, images/portfolio/mat_16-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_16.jpg",
+      },
+      {
+        name: "mat_17",
+        alt: "Maternity in Hickory NC",
+        avif: {
+          set: "images/portfolio/mat_17-400.avif 400w, images/portfolio/mat_17-800.avif 800w, images/portfolio/mat_17-1200.avif 1200w, images/portfolio/mat_17-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_17-400.webp 400w, images/portfolio/mat_17-800.webp 800w, images/portfolio/mat_17-1200.webp 1200w, images/portfolio/mat_17-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_17.jpg",
+      },
+      {
+        name: "mat_18",
+        alt: "Maternity in Troutman NC",
+        avif: {
+          set: "images/portfolio/mat_18-400.avif 400w, images/portfolio/mat_18-800.avif 800w, images/portfolio/mat_18-1200.avif 1200w, images/portfolio/mat_18-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_18-400.webp 400w, images/portfolio/mat_18-800.webp 800w, images/portfolio/mat_18-1200.webp 1200w, images/portfolio/mat_18-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_18.jpg",
+      },
+      {
+        name: "mat_19",
+        alt: "Maternity in Mooresville NC",
+        avif: {
+          set: "images/portfolio/mat_19-400.avif 400w, images/portfolio/mat_19-800.avif 800w, images/portfolio/mat_19-1200.avif 1200w, images/portfolio/mat_19-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_19-400.webp 400w, images/portfolio/mat_19-800.webp 800w, images/portfolio/mat_19-1200.webp 1200w, images/portfolio/mat_19-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_19.jpg",
+      },
+      {
+        name: "mat_20",
+        alt: "Maternity in Lake Norman NC",
+        avif: {
+          set: "images/portfolio/mat_20-400.avif 400w, images/portfolio/mat_20-800.avif 800w, images/portfolio/mat_20-1200.avif 1200w, images/portfolio/mat_20-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_20-400.webp 400w, images/portfolio/mat_20-800.webp 800w, images/portfolio/mat_20-1200.webp 1200w, images/portfolio/mat_20-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_20.jpg",
+      },
+      {
+        name: "mat_21",
+        alt: "Maternity in Cornelius NC",
+        avif: {
+          set: "images/portfolio/mat_21-400.avif 400w, images/portfolio/mat_21-800.avif 800w, images/portfolio/mat_21-1200.avif 1200w, images/portfolio/mat_21-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_21-400.webp 400w, images/portfolio/mat_21-800.webp 800w, images/portfolio/mat_21-1200.webp 1200w, images/portfolio/mat_21-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_21.jpg",
+      },
+      {
+        name: "mat_22",
+        alt: "Maternity in Davidson NC",
+        avif: {
+          set: "images/portfolio/mat_22-400.avif 400w, images/portfolio/mat_22-800.avif 800w, images/portfolio/mat_22-1200.avif 1200w, images/portfolio/mat_22-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_22-400.webp 400w, images/portfolio/mat_22-800.webp 800w, images/portfolio/mat_22-1200.webp 1200w, images/portfolio/mat_22-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_22.jpg",
+      },
+      {
+        name: "mat_23",
+        alt: "Maternity in Hunterville NC",
+        avif: {
+          set: "images/portfolio/mat_23-400.avif 400w, images/portfolio/mat_23-800.avif 800w, images/portfolio/mat_23-1200.avif 1200w, images/portfolio/mat_23-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_23-400.webp 400w, images/portfolio/mat_23-800.webp 800w, images/portfolio/mat_23-1200.webp 1200w, images/portfolio/mat_23-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_23.jpg",
+      },
+      {
+        name: "mat_24",
+        alt: "Maternity in Concrd NC",
+        avif: {
+          set: "images/portfolio/mat_24-400.avif 400w, images/portfolio/mat_24-800.avif 800w, images/portfolio/mat_24-1200.avif 1200w, images/portfolio/mat_24-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_24-400.webp 400w, images/portfolio/mat_24-800.webp 800w, images/portfolio/mat_24-1200.webp 1200w, images/portfolio/mat_24-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_24.jpg",
+      },
+      {
+        name: "mat_25",
         alt: "Maternity in Kannapolis NC",
+        avif: {
+          set: "images/portfolio/mat_25-400.avif 400w, images/portfolio/mat_25-800.avif 800w, images/portfolio/mat_25-1200.avif 1200w, images/portfolio/mat_25-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/mat_25-400.webp 400w, images/portfolio/mat_25-800.webp 800w, images/portfolio/mat_25-1200.webp 1200w, images/portfolio/mat_25-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/mat_25.jpg",
+      },
+      {
+        name: "nwb_1",
+        alt: "Newborn in Kannapolis NC",
         avif: {
           set: "images/portfolio/nwb_1-400.avif 400w, images/portfolio/nwb_1-800.avif 800w, images/portfolio/nwb_1-1200.avif 1200w, images/portfolio/nwb_1-1600.avif 1600w",
         },
@@ -832,7 +1096,7 @@ export const Photos = {
       },
       {
         name: "nwb_2",
-        alt: "Maternity in Concord NC",
+        alt: "Newborn in Concord NC",
         avif: {
           set: "images/portfolio/nwb_2-400.avif 400w, images/portfolio/nwb_2-800.avif 800w, images/portfolio/nwb_2-1200.avif 1200w, images/portfolio/nwb_2-1600.avif 1600w",
         },
@@ -843,7 +1107,7 @@ export const Photos = {
       },
       {
         name: "nwb_3",
-        alt: "Maternity in Statesville NC",
+        alt: "Newborn in Statesville NC",
         avif: {
           set: "images/portfolio/nwb_3-400.avif 400w, images/portfolio/nwb_3-800.avif 800w, images/portfolio/nwb_3-1200.avif 1200w, images/portfolio/nwb_3-1600.avif 1600w",
         },
@@ -854,7 +1118,7 @@ export const Photos = {
       },
       {
         name: "nwb_4",
-        alt: "Maternity in Troutman NC",
+        alt: "Newborn in Troutman NC",
         avif: {
           set: "images/portfolio/nwb_4-400.avif 400w, images/portfolio/nwb_4-800.avif 800w, images/portfolio/nwb_4-1200.avif 1200w, images/portfolio/nwb_4-1600.avif 1600w",
         },
@@ -865,7 +1129,7 @@ export const Photos = {
       },
       {
         name: "nwb_5",
-        alt: "Maternity in Conover NC",
+        alt: "Newborn in Conover NC",
         avif: {
           set: "images/portfolio/nwb_5-400.avif 400w, images/portfolio/nwb_5-800.avif 800w, images/portfolio/nwb_5-1200.avif 1200w, images/portfolio/nwb_5-1600.avif 1600w",
         },
@@ -876,7 +1140,7 @@ export const Photos = {
       },
       {
         name: "nwb_6",
-        alt: "Maternity in Hickory NC",
+        alt: "Newborn in Hickory NC",
         avif: {
           set: "images/portfolio/nwb_6-400.avif 400w, images/portfolio/nwb_6-800.avif 800w, images/portfolio/nwb_6-1200.avif 1200w, images/portfolio/nwb_6-1600.avif 1600w",
         },
@@ -884,6 +1148,72 @@ export const Photos = {
           set: "images/portfolio/nwb_6-400.webp 400w, images/portfolio/nwb_6-800.webp 800w, images/portfolio/nwb_6-1200.webp 1200w, images/portfolio/nwb_6-1600.webp 1600w",
         },
         jpg: "images/portfolio/nwb_6.jpg",
+      },
+      {
+        name: "nwb_7",
+        alt: "Newborn in Mooresville NC",
+        avif: {
+          set: "images/portfolio/nwb_7-400.avif 400w, images/portfolio/nwb_7-800.avif 800w, images/portfolio/nwb_7-1200.avif 1200w, images/portfolio/nwb_7-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/nwb_7-400.webp 400w, images/portfolio/nwb_7-800.webp 800w, images/portfolio/nwb_7-1200.webp 1200w, images/portfolio/nwb_7-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/nwb_7.jpg",
+      },
+      {
+        name: "nwb_8",
+        alt: "Newborn in Troutman NC",
+        avif: {
+          set: "images/portfolio/nwb_8-400.avif 400w, images/portfolio/nwb_8-800.avif 800w, images/portfolio/nwb_8-1200.avif 1200w, images/portfolio/nwb_8-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/nwb_8-400.webp 400w, images/portfolio/nwb_8-800.webp 800w, images/portfolio/nwb_8-1200.webp 1200w, images/portfolio/nwb_8-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/nwb_8.jpg",
+      },
+      {
+        name: "nwb_9",
+        alt: "Newborn in Statesville NC",
+        avif: {
+          set: "images/portfolio/nwb_9-400.avif 400w, images/portfolio/nwb_9-800.avif 800w, images/portfolio/nwb_9-1200.avif 1200w, images/portfolio/nwb_9-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/nwb_9-400.webp 400w, images/portfolio/nwb_9-800.webp 800w, images/portfolio/nwb_9-1200.webp 1200w, images/portfolio/nwb_9-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/nwb_9.jpg",
+      },
+      {
+        name: "nwb_10",
+        alt: "Newborn in Conover NC",
+        avif: {
+          set: "images/portfolio/nwb_10-400.avif 400w, images/portfolio/nwb_10-800.avif 800w, images/portfolio/nwb_10-1200.avif 1200w, images/portfolio/nwb_10-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/nwb_10-400.webp 400w, images/portfolio/nwb_10-800.webp 800w, images/portfolio/nwb_10-1200.webp 1200w, images/portfolio/nwb_10-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/nwb_10.jpg",
+      },
+      {
+        name: "nwb_11",
+        alt: "Newborn in Newton NC",
+        avif: {
+          set: "images/portfolio/nwb_11-400.avif 400w, images/portfolio/nwb_11-800.avif 800w, images/portfolio/nwb_11-1200.avif 1200w, images/portfolio/nwb_11-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/nwb_11-400.webp 400w, images/portfolio/nwb_11-800.webp 800w, images/portfolio/nwb_11-1200.webp 1200w, images/portfolio/nwb_11-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/nwb_11.jpg",
+      },
+      {
+        name: "nwb_12",
+        alt: "Newborn in Hickory NC",
+        avif: {
+          set: "images/portfolio/nwb_12-400.avif 400w, images/portfolio/nwb_12-800.avif 800w, images/portfolio/nwb_12-1200.avif 1200w, images/portfolio/nwb_12-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/nwb_12-400.webp 400w, images/portfolio/nwb_12-800.webp 800w, images/portfolio/nwb_12-1200.webp 1200w, images/portfolio/nwb_12-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/nwb_12.jpg",
       },
       {
         name: "sen_1",
@@ -1027,6 +1357,248 @@ export const Photos = {
           set: "images/portfolio/sen_13-400.webp 400w, images/portfolio/sen_13-800.webp 800w, images/portfolio/sen_13-1200.webp 1200w, images/portfolio/sen_13-1600.webp 1600w",
         },
         jpg: "images/portfolio/sen_13.jpg",
+      },
+      {
+        name: "sen_14",
+        alt: "Senior in Mooresville NC",
+        avif: {
+          set: "images/portfolio/sen_14-400.avif 400w, images/portfolio/sen_14-800.avif 800w, images/portfolio/sen_14-1200.avif 1200w, images/portfolio/sen_14-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_14-400.webp 400w, images/portfolio/sen_14-800.webp 800w, images/portfolio/sen_14-1200.webp 1200w, images/portfolio/sen_14-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_14.jpg",
+      },
+      {
+        name: "sen_15",
+        alt: "Senior in Lake Norman NC",
+        avif: {
+          set: "images/portfolio/sen_15-400.avif 400w, images/portfolio/sen_15-800.avif 800w, images/portfolio/sen_15-1200.avif 1200w, images/portfolio/sen_15-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_15-400.webp 400w, images/portfolio/sen_15-800.webp 800w, images/portfolio/sen_15-1200.webp 1200w, images/portfolio/sen_15-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_15.jpg",
+      },
+      {
+        name: "sen_16",
+        alt: "Senior in Mooresville NC",
+        avif: {
+          set: "images/portfolio/sen_16-400.avif 400w, images/portfolio/sen_16-800.avif 800w, images/portfolio/sen_16-1200.avif 1200w, images/portfolio/sen_16-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_16-400.webp 400w, images/portfolio/sen_16-800.webp 800w, images/portfolio/sen_16-1200.webp 1200w, images/portfolio/sen_16-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_16.jpg",
+      },
+      {
+        name: "sen_17",
+        alt: "Senior in Davidson NC",
+        avif: {
+          set: "images/portfolio/sen_17-400.avif 400w, images/portfolio/sen_17-800.avif 800w, images/portfolio/sen_17-1200.avif 1200w, images/portfolio/sen_17-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_17-400.webp 400w, images/portfolio/sen_17-800.webp 800w, images/portfolio/sen_17-1200.webp 1200w, images/portfolio/sen_17-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_17.jpg",
+      },
+      {
+        name: "sen_18",
+        alt: "Senior in Cornelius NC",
+        avif: {
+          set: "images/portfolio/sen_18-400.avif 400w, images/portfolio/sen_18-800.avif 800w, images/portfolio/sen_18-1200.avif 1200w, images/portfolio/sen_18-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_18-400.webp 400w, images/portfolio/sen_18-800.webp 800w, images/portfolio/sen_18-1200.webp 1200w, images/portfolio/sen_18-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_18.jpg",
+      },
+      {
+        name: "sen_19",
+        alt: "Senior in Huntersville NC",
+        avif: {
+          set: "images/portfolio/sen_19-400.avif 400w, images/portfolio/sen_19-800.avif 800w, images/portfolio/sen_19-1200.avif 1200w, images/portfolio/sen_19-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_19-400.webp 400w, images/portfolio/sen_19-800.webp 800w, images/portfolio/sen_19-1200.webp 1200w, images/portfolio/sen_19-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_19.jpg",
+      },
+      {
+        name: "sen_20",
+        alt: "Senior in Salisbury NC",
+        avif: {
+          set: "images/portfolio/sen_20-400.avif 400w, images/portfolio/sen_20-800.avif 800w, images/portfolio/sen_20-1200.avif 1200w, images/portfolio/sen_20-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_20-400.webp 400w, images/portfolio/sen_20-800.webp 800w, images/portfolio/sen_20-1200.webp 1200w, images/portfolio/sen_20-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_20.jpg",
+      },
+      {
+        name: "sen_21",
+        alt: "Senior in Spencer NC",
+        avif: {
+          set: "images/portfolio/sen_21-400.avif 400w, images/portfolio/sen_21-800.avif 800w, images/portfolio/sen_21-1200.avif 1200w, images/portfolio/sen_21-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_21-400.webp 400w, images/portfolio/sen_21-800.webp 800w, images/portfolio/sen_21-1200.webp 1200w, images/portfolio/sen_21-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_21.jpg",
+      },
+      {
+        name: "sen_22",
+        alt: "Senior in Landis NC",
+        avif: {
+          set: "images/portfolio/sen_22-400.avif 400w, images/portfolio/sen_22-800.avif 800w, images/portfolio/sen_22-1200.avif 1200w, images/portfolio/sen_22-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_22-400.webp 400w, images/portfolio/sen_22-800.webp 800w, images/portfolio/sen_22-1200.webp 1200w, images/portfolio/sen_22-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_22.jpg",
+      },
+      {
+        name: "sen_23",
+        alt: "Senior in China Grove NC",
+        avif: {
+          set: "images/portfolio/sen_23-400.avif 400w, images/portfolio/sen_23-800.avif 800w, images/portfolio/sen_23-1200.avif 1200w, images/portfolio/sen_23-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_23-400.webp 400w, images/portfolio/sen_23-800.webp 800w, images/portfolio/sen_23-1200.webp 1200w, images/portfolio/sen_23-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_23.jpg",
+      },
+      {
+        name: "sen_24",
+        alt: "Senior in Kannapolis NC",
+        avif: {
+          set: "images/portfolio/sen_24-400.avif 400w, images/portfolio/sen_24-800.avif 800w, images/portfolio/sen_24-1200.avif 1200w, images/portfolio/sen_24-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_24-400.webp 400w, images/portfolio/sen_24-800.webp 800w, images/portfolio/sen_24-1200.webp 1200w, images/portfolio/sen_24-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_24.jpg",
+      },
+      {
+        name: "sen_25",
+        alt: "Senior in Concord NC",
+        avif: {
+          set: "images/portfolio/sen_25-400.avif 400w, images/portfolio/sen_25-800.avif 800w, images/portfolio/sen_25-1200.avif 1200w, images/portfolio/sen_25-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_25-400.webp 400w, images/portfolio/sen_25-800.webp 800w, images/portfolio/sen_25-1200.webp 1200w, images/portfolio/sen_25-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_25.jpg",
+      },
+      {
+        name: "sen_26",
+        alt: "Senior in Matthews NC",
+        avif: {
+          set: "images/portfolio/sen_26-400.avif 400w, images/portfolio/sen_26-800.avif 800w, images/portfolio/sen_26-1200.avif 1200w, images/portfolio/sen_26-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_26-400.webp 400w, images/portfolio/sen_26-800.webp 800w, images/portfolio/sen_26-1200.webp 1200w, images/portfolio/sen_26-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_26.jpg",
+      },
+      {
+        name: "sen_27",
+        alt: "Senior in Harrisburg NC",
+        avif: {
+          set: "images/portfolio/sen_27-400.avif 400w, images/portfolio/sen_27-800.avif 800w, images/portfolio/sen_27-1200.avif 1200w, images/portfolio/sen_27-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_27-400.webp 400w, images/portfolio/sen_27-800.webp 800w, images/portfolio/sen_27-1200.webp 1200w, images/portfolio/sen_27-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_27.jpg",
+      },
+      {
+        name: "sen_28",
+        alt: "Senior in Charlotte NC",
+        avif: {
+          set: "images/portfolio/sen_28-400.avif 400w, images/portfolio/sen_28-800.avif 800w, images/portfolio/sen_28-1200.avif 1200w, images/portfolio/sen_28-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/sen_28-400.webp 400w, images/portfolio/sen_28-800.webp 800w, images/portfolio/sen_28-1200.webp 1200w, images/portfolio/sen_28-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/sen_28.jpg",
+      },
+      {
+        name: "min_1",
+        alt: "Minis in Charlotte NC",
+        avif: {
+          set: "images/portfolio/min_1-400.avif 400w, images/portfolio/min_1-800.avif 800w, images/portfolio/min_1-1200.avif 1200w, images/portfolio/min_1-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/min_1-400.webp 400w, images/portfolio/min_1-800.webp 800w, images/portfolio/min_1-1200.webp 1200w, images/portfolio/min_1-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/min_1.jpg",
+      },
+      {
+        name: "min_2",
+        alt: "Minis in Lake Norman NC",
+        avif: {
+          set: "images/portfolio/min_2-400.avif 400w, images/portfolio/min_2-800.avif 800w, images/portfolio/min_2-1200.avif 1200w, images/portfolio/min_2-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/min_2-400.webp 400w, images/portfolio/min_2-800.webp 800w, images/portfolio/min_2-1200.webp 1200w, images/portfolio/min_2-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/min_2.jpg",
+      },
+      {
+        name: "bir_1",
+        alt: "Birth in Statesville NC",
+        avif: {
+          set: "images/portfolio/bir_1-400.avif 400w, images/portfolio/bir_1-800.avif 800w, images/portfolio/bir_1-1200.avif 1200w, images/portfolio/bir_1-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/bir_1-400.webp 400w, images/portfolio/bir_1-800.webp 800w, images/portfolio/bir_1-1200.webp 1200w, images/portfolio/bir_1-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/bir_1.jpg",
+      },
+      {
+        name: "bir_2",
+        alt: "Birth in Concord NC",
+        avif: {
+          set: "images/portfolio/bir_2-400.avif 400w, images/portfolio/bir_2-800.avif 800w, images/portfolio/bir_2-1200.avif 1200w, images/portfolio/bir_2-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/bir_2-400.webp 400w, images/portfolio/bir_2-800.webp 800w, images/portfolio/bir_2-1200.webp 1200w, images/portfolio/bir_2-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/bir_2.jpg",
+      },
+      {
+        name: "bir_3",
+        alt: "Birth in Charlotte NC",
+        avif: {
+          set: "images/portfolio/bir_3-400.avif 400w, images/portfolio/bir_3-800.avif 800w, images/portfolio/bir_3-1200.avif 1200w, images/portfolio/bir_3-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/bir_3-400.webp 400w, images/portfolio/bir_3-800.webp 800w, images/portfolio/bir_3-1200.webp 1200w, images/portfolio/bir_3-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/bir_3.jpg",
+      },
+      {
+        name: "bir_4",
+        alt: "Birth in Mooresville NC",
+        avif: {
+          set: "images/portfolio/bir_4-400.avif 400w, images/portfolio/bir_4-800.avif 800w, images/portfolio/bir_4-1200.avif 1200w, images/portfolio/bir_4-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/bir_4-400.webp 400w, images/portfolio/bir_4-800.webp 800w, images/portfolio/bir_4-1200.webp 1200w, images/portfolio/bir_4-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/bir_4.jpg",
+      },
+      {
+        name: "bir_5",
+        alt: "Birth in Lake Norman NC",
+        avif: {
+          set: "images/portfolio/bir_5-400.avif 400w, images/portfolio/bir_5-800.avif 800w, images/portfolio/bir_5-1200.avif 1200w, images/portfolio/bir_5-1600.avif 1600w",
+        },
+        webp: {
+          set: "images/portfolio/bir_5-400.webp 400w, images/portfolio/bir_5-800.webp 800w, images/portfolio/bir_5-1200.webp 1200w, images/portfolio/bir_5-1600.webp 1600w",
+        },
+        jpg: "images/portfolio/bir_5.jpg",
       },
     ],
   },
