@@ -56,9 +56,11 @@ const DotButton = styled(Chip)(({ theme }) => ({
   width: "1em",
 }));
 
-const CarouselOptimized = ({ slides }) => {
+const CarouselOptimized = ({ slides, randomize }) => {
   const [selectedIndex, setSelectedIndex] = React.useState(0);
   const [scrollSnaps, setScrollSnaps] = React.useState([]);
+
+  const randomSlides = React.useMemo(() => randomize ? slides.sort(() => Math.random() - 0.5) : slides, [slides, randomize]);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     // Autoplay({ delay: 5000 }),
@@ -98,7 +100,7 @@ const CarouselOptimized = ({ slides }) => {
     <>
       <Embla ref={emblaRef}>
         <EmblaContainer>
-          {slides.map((slide) => (
+          {randomSlides.map((slide) => (
             <EmblaSlide key={slide.name} style={{ flex: `0 0 auto` }}>
               <picture>
                 <source
