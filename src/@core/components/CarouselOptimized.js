@@ -35,7 +35,6 @@ const InnerEmblaSlide = styled("img")(({ theme }) => ({
 const EmblaControls = styled(Box)(({ theme }) => ({
   position: "absolute",
   bottom: "5%",
-  left: "calc(50% - 47.5px)",
   backgroundColor: "rgba(0,0,0,0.33)",
   backdropFilter: "blur(8px)",
   WebkitBackdropFilter: "blur(8px)",
@@ -123,7 +122,9 @@ const CarouselOptimized = ({ slides, randomize }) => {
             </EmblaSlide>
           ))}
         </EmblaContainer>
-        <EmblaControls>
+        <EmblaControls style={{
+            left: "calc(50% - 126.5px)",
+        }}>
           <EmblaDots>
             {scrollSnaps.map((_, index) => (
               <DotButton
