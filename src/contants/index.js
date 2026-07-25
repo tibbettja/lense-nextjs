@@ -1597,80 +1597,80 @@ export const Photos = {
         name: "bm_brt",
         alt: "Birth in Charlotte NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_brt-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/bm_brt-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/bm_brt-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/bm_brt-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_brt-400.avif 400w, https://cdn.btibbettphotography.com/images/services/bm_brt-800.avif 800w, https://cdn.btibbettphotography.com/images/services/bm_brt-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/bm_brt-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_brt-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/bm_brt-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/bm_brt-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/bm_brt-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_brt-400.webp 400w, https://cdn.btibbettphotography.com/images/services/bm_brt-800.webp 800w, https://cdn.btibbettphotography.com/images/services/bm_brt-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/bm_brt-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/bm_brt.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/bm_brt.jpg",
       },
       fresh48: {
         name: "bm_f48",
         alt: "First 48 in Cornelius NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_f48-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/bm_f48-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/bm_f48-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/bm_f48-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_f48-400.avif 400w, https://cdn.btibbettphotography.com/images/services/bm_f48-800.avif 800w, https://cdn.btibbettphotography.com/images/services/bm_f48-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/bm_f48-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_f48-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/bm_f48-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/bm_f48-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/bm_f48-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_f48-400.webp 400w, https://cdn.btibbettphotography.com/images/services/bm_f48-800.webp 800w, https://cdn.btibbettphotography.com/images/services/bm_f48-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/bm_f48-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/bm_f48.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/bm_f48.jpg",
       },
       lifestyle: {
         name: "bm_lsn",
         alt: "Lifestyle Newborn in Salisbury NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_lsn-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/bm_lsn-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/bm_lsn-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/bm_lsn-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_lsn-400.avif 400w, https://cdn.btibbettphotography.com/images/services/bm_lsn-800.avif 800w, https://cdn.btibbettphotography.com/images/services/bm_lsn-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/bm_lsn-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_lsn-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/bm_lsn-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/bm_lsn-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/bm_lsn-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_lsn-400.webp 400w, https://cdn.btibbettphotography.com/images/services/bm_lsn-800.webp 800w, https://cdn.btibbettphotography.com/images/services/bm_lsn-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/bm_lsn-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/bm_lsn.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/bm_lsn.jpg",
       },
       maternity: {
         name: "bm_mat",
         alt: "Maternity in Mooresville NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_mat-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/bm_mat-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/bm_mat-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/bm_mat-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_mat-400.avif 400w, https://cdn.btibbettphotography.com/images/services/bm_mat-800.avif 800w, https://cdn.btibbettphotography.com/images/services/bm_mat-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/bm_mat-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_mat-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/bm_mat-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/bm_mat-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/bm_mat-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_mat-400.webp 400w, https://cdn.btibbettphotography.com/images/services/bm_mat-800.webp 800w, https://cdn.btibbettphotography.com/images/services/bm_mat-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/bm_mat-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/bm_mat.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/bm_mat.jpg",
       },
     },
     branding: {
         name: "brnd_bas",
         alt: "Commercial & Branding Photography in Charlotte NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/brnd_bas-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/brnd_bas-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/brnd_bas-400.avif 400w, https://cdn.btibbettphotography.com/images/services/brnd_bas-800.avif 800w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/brnd_bas-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/brnd_bas-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/brnd_bas-400.webp 400w, https://cdn.btibbettphotography.com/images/services/brnd_bas-800.webp 800w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/brnd_bas.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/brnd_bas.jpg",
       },
     engagement: {
       engagement: {
         name: "eng_eng",
         alt: "Engagment in Charlotte NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_eng-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/eng_eng-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_eng-400.avif 400w, https://cdn.btibbettphotography.com/images/services/eng_eng-800.avif 800w, https://cdn.btibbettphotography.com/images/services/eng_eng-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/eng_eng-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_eng-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/eng_eng-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_eng-400.webp 400w, https://cdn.btibbettphotography.com/images/services/eng_eng-800.webp 800w, https://cdn.btibbettphotography.com/images/services/eng_eng-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/eng_eng-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/eng_eng.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/eng_eng.jpg",
       },
       proposal: {
         name: "eng_prp",
         alt: "Proposal in Statesville NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_prp-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/eng_prp-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/eng_prp-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/eng_prp-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_prp-400.avif 400w, https://cdn.btibbettphotography.com/images/services/eng_prp-800.avif 800w, https://cdn.btibbettphotography.com/images/services/eng_prp-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/eng_prp-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_prp-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/eng_prp-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/eng_prp-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/eng_prp-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_prp-400.webp 400w, https://cdn.btibbettphotography.com/images/services/eng_prp-800.webp 800w, https://cdn.btibbettphotography.com/images/services/eng_prp-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/eng_prp-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/eng_prp.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/eng_prp.jpg",
       },
     },
     family: {
@@ -1678,23 +1678,23 @@ export const Photos = {
         name: "fam_bas",
         alt: "Family in Troutman NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fam_bas-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/fam_bas-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/fam_bas-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/fam_bas-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fam_bas-400.avif 400w, https://cdn.btibbettphotography.com/images/services/fam_bas-800.avif 800w, https://cdn.btibbettphotography.com/images/services/fam_bas-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/fam_bas-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fam_bas-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/fam_bas-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/fam_bas-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/fam_bas-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fam_bas-400.webp 400w, https://cdn.btibbettphotography.com/images/services/fam_bas-800.webp 800w, https://cdn.btibbettphotography.com/images/services/fam_bas-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/fam_bas-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/fam_bas.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/fam_bas.jpg",
       },
       extended: {
         name: "fam_ext",
         alt: "Extended Family in Concord NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fam_ext-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/fam_ext-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/fam_ext-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/fam_ext-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fam_ext-400.avif 400w, https://cdn.btibbettphotography.com/images/services/fam_ext-800.avif 800w, https://cdn.btibbettphotography.com/images/services/fam_ext-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/fam_ext-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fam_ext-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/fam_ext-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/fam_ext-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/fam_ext-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fam_ext-400.webp 400w, https://cdn.btibbettphotography.com/images/services/fam_ext-800.webp 800w, https://cdn.btibbettphotography.com/images/services/fam_ext-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/fam_ext-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/fam_ext.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/fam_ext.jpg",
       },
     },
     seasonal: {
@@ -1702,34 +1702,34 @@ export const Photos = {
         name: "eng_eng",
         alt: "Valentines in Charlotte NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_eng-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/eng_eng-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_eng-400.avif 400w, https://cdn.btibbettphotography.com/images/services/eng_eng-800.avif 800w, https://cdn.btibbettphotography.com/images/services/eng_eng-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/eng_eng-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_eng-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/eng_eng-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/eng_eng-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_eng-400.webp 400w, https://cdn.btibbettphotography.com/images/services/eng_eng-800.webp 800w, https://cdn.btibbettphotography.com/images/services/eng_eng-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/eng_eng-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/eng_eng.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/eng_eng.jpg",
       },
       harvest: {
         name: "fall_minis",
         alt: "Harvest Minis in Charlotte NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fall_minis-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/fall_minis-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/fall_minis-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/fall_minis-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fall_minis-400.avif 400w, https://cdn.btibbettphotography.com/images/services/fall_minis-800.avif 800w, https://cdn.btibbettphotography.com/images/services/fall_minis-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/fall_minis-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fall_minis-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/fall_minis-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/fall_minis-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/fall_minis-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fall_minis-400.webp 400w, https://cdn.btibbettphotography.com/images/services/fall_minis-800.webp 800w, https://cdn.btibbettphotography.com/images/services/fall_minis-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/fall_minis-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/fall_minis.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/fall_minis.jpg",
       },
       christmas: {
         name: "cmas_minis",
         alt: "Christmas Minis in Concord NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/cmas_minis-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/cmas_minis-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/cmas_minis-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/cmas_minis-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/cmas_minis-400.avif 400w, https://cdn.btibbettphotography.com/images/services/cmas_minis-800.avif 800w, https://cdn.btibbettphotography.com/images/services/cmas_minis-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/cmas_minis-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/cmas_minis-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/cmas_minis-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/cmas_minis-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/cmas_minis-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/cmas_minis-400.webp 400w, https://cdn.btibbettphotography.com/images/services/cmas_minis-800.webp 800w, https://cdn.btibbettphotography.com/images/services/cmas_minis-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/cmas_minis-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/cmas_minis.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/cmas_minis.jpg",
       },
     },
     seniors: {
@@ -1737,23 +1737,23 @@ export const Photos = {
         name: "sen_bas",
         alt: "Senior in Davidson NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/sen_bas-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/sen_bas-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/sen_bas-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/sen_bas-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/sen_bas-400.avif 400w, https://cdn.btibbettphotography.com/images/services/sen_bas-800.avif 800w, https://cdn.btibbettphotography.com/images/services/sen_bas-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/sen_bas-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/sen_bas-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/sen_bas-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/sen_bas-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/sen_bas-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/sen_bas-400.webp 400w, https://cdn.btibbettphotography.com/images/services/sen_bas-800.webp 800w, https://cdn.btibbettphotography.com/images/services/sen_bas-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/sen_bas-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/sen_bas.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/sen_bas.jpg",
       },
       extended: {
         name: "sen_ext",
         alt: "Senior Extended in Charlotte NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/sen_ext-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/sen_ext-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/sen_ext-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/sen_ext-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/sen_ext-400.avif 400w, https://cdn.btibbettphotography.com/images/services/sen_ext-800.avif 800w, https://cdn.btibbettphotography.com/images/services/sen_ext-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/sen_ext-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/sen_ext-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/sen_ext-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/sen_ext-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/sen_ext-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/sen_ext-400.webp 400w, https://cdn.btibbettphotography.com/images/services/sen_ext-800.webp 800w, https://cdn.btibbettphotography.com/images/services/sen_ext-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/sen_ext-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/sen_ext.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/sen_ext.jpg",
       },
     },
     super: {
@@ -1761,56 +1761,56 @@ export const Photos = {
         name: "eng_ovw",
         alt: "Engagement in Lake Norman",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_ovw-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/eng_ovw-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/eng_ovw-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/eng_ovw-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_ovw-400.avif 400w, https://cdn.btibbettphotography.com/images/services/eng_ovw-800.avif 800w, https://cdn.btibbettphotography.com/images/services/eng_ovw-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/eng_ovw-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/eng_ovw-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/eng_ovw-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/eng_ovw-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/eng_ovw-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/eng_ovw-400.webp 400w, https://cdn.btibbettphotography.com/images/services/eng_ovw-800.webp 800w, https://cdn.btibbettphotography.com/images/services/eng_ovw-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/eng_ovw-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/eng_ovw.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/eng_ovw.jpg",
       },
       family: {
         name: "fam_ovw",
         alt: "Family in Mooresville NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fam_ovw-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/fam_ovw-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/fam_ovw-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/fam_ovw-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fam_ovw-400.avif 400w, https://cdn.btibbettphotography.com/images/services/fam_ovw-800.avif 800w, https://cdn.btibbettphotography.com/images/services/fam_ovw-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/fam_ovw-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/fam_ovw-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/fam_ovw-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/fam_ovw-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/fam_ovw-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/fam_ovw-400.webp 400w, https://cdn.btibbettphotography.com/images/services/fam_ovw-800.webp 800w, https://cdn.btibbettphotography.com/images/services/fam_ovw-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/fam_ovw-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/fam_ovw.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/fam_ovw.jpg",
       },
       maternity: {
         name: "bm_ovw",
         alt: "Maternity in Huntersville NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_ovw-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/bm_ovw-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/bm_ovw-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/bm_ovw-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_ovw-400.avif 400w, https://cdn.btibbettphotography.com/images/services/bm_ovw-800.avif 800w, https://cdn.btibbettphotography.com/images/services/bm_ovw-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/bm_ovw-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/bm_ovw-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/bm_ovw-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/bm_ovw-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/bm_ovw-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/bm_ovw-400.webp 400w, https://cdn.btibbettphotography.com/images/services/bm_ovw-800.webp 800w, https://cdn.btibbettphotography.com/images/services/bm_ovw-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/bm_ovw-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/bm_ovw.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/bm_ovw.jpg",
       },
       senior: {
         name: "sen_ovw",
         alt: "Senior in Statesville NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/sen_ovw-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/sen_ovw-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/sen_ovw-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/sen_ovw-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/sen_ovw-400.avif 400w, https://cdn.btibbettphotography.com/images/services/sen_ovw-800.avif 800w, https://cdn.btibbettphotography.com/images/services/sen_ovw-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/sen_ovw-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/sen_ovw-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/sen_ovw-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/sen_ovw-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/sen_ovw-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/sen_ovw-400.webp 400w, https://cdn.btibbettphotography.com/images/services/sen_ovw-800.webp 800w, https://cdn.btibbettphotography.com/images/services/sen_ovw-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/sen_ovw-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/sen_ovw.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/sen_ovw.jpg",
       },
       branding: {
         name: "brnd_ovw",
         alt: "Commercial & Branding Photography in Troutman NC",
         avif: {
-          set: "/https://cdn.btibbettphotography.com/images/services/brnd_ovw-400.avif 400w, /https://cdn.btibbettphotography.com/images/services/brnd_ovw-800.avif 800w, /https://cdn.btibbettphotography.com/images/services/brnd_ovw-1200.avif 1200w, /https://cdn.btibbettphotography.com/images/services/brnd_ovw-1600.avif 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/brnd_ovw-400.avif 400w, https://cdn.btibbettphotography.com/images/services/brnd_ovw-800.avif 800w, https://cdn.btibbettphotography.com/images/services/brnd_ovw-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/brnd_ovw-1600.avif 1600w",
         },
         webp: {
-          set: "/https://cdn.btibbettphotography.com/images/services/brnd_ovw-400.webp 400w, /https://cdn.btibbettphotography.com/images/services/brnd_ovw-800.webp 800w, /https://cdn.btibbettphotography.com/images/services/brnd_ovw-1200.webp 1200w, /https://cdn.btibbettphotography.com/images/services/brnd_ovw-1600.webp 1600w",
+          set: "https://cdn.btibbettphotography.com/images/services/brnd_ovw-400.webp 400w, https://cdn.btibbettphotography.com/images/services/brnd_ovw-800.webp 800w, https://cdn.btibbettphotography.com/images/services/brnd_ovw-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/brnd_ovw-1600.webp 1600w",
         },
-        jpg: "/https://cdn.btibbettphotography.com/images/services/brnd_ovw.jpg",
+        jpg: "https://cdn.btibbettphotography.com/images/services/brnd_ovw.jpg",
       },
     },
   },
