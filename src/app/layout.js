@@ -31,13 +31,13 @@ const ServerApp = ({ children }) => {
               "url": "https://btibbettphotography.com",
               "@id": "https://btibbettphotography.com",
               "description": "B. Tibbett Photography captures the joy and comfort of the Lake Norman area through intimate birth and family photography.",
-              "logo": "https://btibbettphotography.com/images/logo.png",
+              "logo": "https://cdn.btibbettphotography.com/images/logo.png",
               "image": [
-                "https://btibbettphotography.com/images/slider/slide_1-800.webp",
-                "https://btibbettphotography.com/images/slider/slide_2-800.webp",
-                "https://btibbettphotography.com/images/slider/slide_3-800.webp",
-                "https://btibbettphotography.com/images/slider/slide_4-800.webp",
-                "https://btibbettphotography.com/images/slider/slide_5-800.webp"
+                "https://cdn.btibbettphotography.com/images/slider/slide_1-800.webp",
+                "https://cdn.btibbettphotography.com/images/slider/slide_2-800.webp",
+                "https://cdn.btibbettphotography.com/images/slider/slide_3-800.webp",
+                "https://cdn.btibbettphotography.com/images/slider/slide_4-800.webp",
+                "https://cdn.btibbettphotography.com/images/slider/slide_5-800.webp"
               ],
               "address": {
                 "@type": "PostalAddress",

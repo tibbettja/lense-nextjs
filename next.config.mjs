@@ -21,7 +21,7 @@ const nextConfig = {
     NEXT_PUBLIC_VERSION: pkg_config.version,
   },
   basePath: "",
-  assetPrefix: isProd ? "https://cdn.btibbettphotography.com" : "",
+  assetPrefix: "",
   images: isProd || isVPS
     ? {
         unoptimized: true,

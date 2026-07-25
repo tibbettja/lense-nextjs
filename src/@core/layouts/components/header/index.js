@@ -15,7 +15,7 @@ import fonts from "@/@core/theme/fonts";
 import themeConfig from "@/configs/themeConfig";
 import MobileMenu from "./components/MobileMenu";
 
-const logoImage = "/images/logo.png";
+const logoImage = "https://cdn.btibbettphotography.com/images/logo.png";
 
 const Header = () => {
   const theme = useTheme();
