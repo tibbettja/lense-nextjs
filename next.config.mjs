@@ -1,12 +1,13 @@
 import pkg_config from "./package.json" with { type: "json" };
 
 const isProd = process.env.NODE_ENV === "production";
+const isVPS = process.env.VPS === "enabled";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  output: isProd ? "export" : "standalone",
+  output: isProd && !isVPS ? "export" : undefined,
   async redirects() {
     return [
       {
@@ -19,9 +20,9 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_VERSION: pkg_config.version,
   },
-  basePath: isProd ? "" : "",
-  assetPrefix: isProd ? "" : "",
-  images: isProd
+  basePath: "",
+  assetPrefix: isProd ? "https://cdn.btibbettphotography.com" : "",
+  images: isProd || isVPS
     ? {
         unoptimized: true,
       }
