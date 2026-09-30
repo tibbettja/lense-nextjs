@@ -69,7 +69,7 @@ const Proposal = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60 minute Session & 20 Digital Images
+                Coverage & 15 minute Session & <b>Full Gallery</b>
               </Typography>
             </ListItem>
             <ListItem>
@@ -78,7 +78,7 @@ const Proposal = () => {
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography variant="body2">$180</Typography>
+              <Typography variant="body2">$250</Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">

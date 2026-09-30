@@ -1,5 +1,6 @@
 import themeConfig from "@/configs/themeConfig";
 import { Grid } from "@mui/material";
+import StoryOfMotherhood from "./StoryOfMotherhood";
 import Maternity from "./Maternity";
 import Birth from "./Birth";
 import Fresh48 from "./Fresh48";
@@ -8,6 +9,7 @@ import Lifestyle from "./Lifestyle";
 const Page = () => {
   return (
     <Grid container paddingTop={20} paddingX={4} spacing={4}>
+      <StoryOfMotherhood />
       <Maternity />
       <Birth />
       <Fresh48 />

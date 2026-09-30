@@ -29,7 +29,7 @@ const Fresh48 = () => {
   return (
     <Grid size={12} component={Card}>
       <CardHeader
-        title="Fresh 48 Sessions"
+        title="Fresh 48 Session"
         slotProps={{
           title: { align: "center", variant: "h3" },
           subheader: { align: "center", variant: "h6" },
@@ -68,18 +68,12 @@ const Fresh48 = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60-120 minute Session (on baby-time!) & at least 30 Digital
-                Images
+                60-120 minute Session (on baby-time!) & <b>Full Gallery</b>
               </Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">
-                Typically captured within the first 10 days of life
-              </Typography>
-            </ListItem>
-            <ListItem>
-              <Typography variant="body2">
-                Potential for Multiple Outfit Changes
+                Typically captured within the first 48 hours of life
               </Typography>
             </ListItem>
             <ListItem>

@@ -1,13 +1,13 @@
 import themeConfig from "@/configs/themeConfig";
 import { Grid } from "@mui/material";
 import Branding from "./Branding";
+import Headshots from "./Headshots";
 
 const Page = () => {
   return (
-    <Grid container paddingTop={20} paddingX={4}>
-      <Grid size={12}>
-        <Branding />
-      </Grid>
+    <Grid container paddingTop={20} paddingX={4} spacing={4}>
+      <Branding />
+      <Headshots />
     </Grid>
   );
 };

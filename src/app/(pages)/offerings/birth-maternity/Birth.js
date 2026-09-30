@@ -92,6 +92,10 @@ const Birth = () => {
             </ListItem>
             <ListItem>
               <Typography variant="body2">
+                Videography Add On:&nbsp;$200</Typography>
+            </ListItem>
+            <ListItem>
+              <Typography variant="body2">
                 <Link
                   href="https://portfolio.btibbettphotography.com/contact"
                   title="Inquire Now!"

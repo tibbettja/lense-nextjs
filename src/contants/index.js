@@ -1593,6 +1593,17 @@ export const Photos = {
   },
   offerings: {
     birthMaternity: {
+      story: {
+        name: "bm_story",
+        alt: "Birth in Statesville NC",
+        avif: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/nwb_6-400.avif 400w, https://cdn.btibbettphotography.com/images/portfolio/nwb_6-800.avif 800w, https://cdn.btibbettphotography.com/images/portfolio/nwb_6-1200.avif 1200w, https://cdn.btibbettphotography.com/images/portfolio/nwb_6-1600.avif 1600w",
+        },
+        webp: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/nwb_6-400.webp 400w, https://cdn.btibbettphotography.com/images/portfolio/nwb_6-800.webp 800w, https://cdn.btibbettphotography.com/images/portfolio/nwb_6-1200.webp 1200w, https://cdn.btibbettphotography.com/images/portfolio/nwb_6-1600.webp 1600w",
+        },
+        jpg: "https://cdn.btibbettphotography.com/images/portfolio/nwb_6.jpg",
+      },
       birth: {
         name: "bm_brt",
         alt: "Birth in Charlotte NC",
@@ -1639,16 +1650,29 @@ export const Photos = {
       },
     },
     branding: {
-        name: "brnd_bas",
-        alt: "Commercial & Branding Photography in Charlotte NC",
-        avif: {
-          set: "https://cdn.btibbettphotography.com/images/services/brnd_bas-400.avif 400w, https://cdn.btibbettphotography.com/images/services/brnd_bas-800.avif 800w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.avif 1600w",
+      headshots: {
+          name: "brnd_head",
+          alt: "Headshot Photography in Mooresville NC",
+          avif: {
+            set: "https://cdn.btibbettphotography.com/images/portfolio/brnd_5-400.avif 400w, https://cdn.btibbettphotography.com/images/portfolio/brnd_5-800.avif 800w, https://cdn.btibbettphotography.com/images/portfolio/brnd_5-1200.avif 1200w, https://cdn.btibbettphotography.com/images/portfolio/brnd_5-1600.avif 1600w",
+          },
+          webp: {
+            set: "https://cdn.btibbettphotography.com/images/portfolio/brnd_5-400.webp 400w, https://cdn.btibbettphotography.com/images/portfolio/brnd_5-800.webp 800w, https://cdn.btibbettphotography.com/images/portfolio/brnd_5-1200.webp 1200w, https://cdn.btibbettphotography.com/images/portfolio/brnd_5-1600.webp 1600w",
+          },
+          jpg: "https://cdn.btibbettphotography.com/images/portfolio/brnd_5.jpg",
         },
-        webp: {
-          set: "https://cdn.btibbettphotography.com/images/services/brnd_bas-400.webp 400w, https://cdn.btibbettphotography.com/images/services/brnd_bas-800.webp 800w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.webp 1600w",
+      branding: {
+          name: "brnd_bas",
+          alt: "Commercial & Branding Photography in Charlotte NC",
+          avif: {
+            set: "https://cdn.btibbettphotography.com/images/services/brnd_bas-400.avif 400w, https://cdn.btibbettphotography.com/images/services/brnd_bas-800.avif 800w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.avif 1200w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.avif 1600w",
+          },
+          webp: {
+            set: "https://cdn.btibbettphotography.com/images/services/brnd_bas-400.webp 400w, https://cdn.btibbettphotography.com/images/services/brnd_bas-800.webp 800w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1200.webp 1200w, https://cdn.btibbettphotography.com/images/services/brnd_bas-1600.webp 1600w",
+          },
+          jpg: "https://cdn.btibbettphotography.com/images/services/brnd_bas.jpg",
         },
-        jpg: "https://cdn.btibbettphotography.com/images/services/brnd_bas.jpg",
-      },
+    },
     engagement: {
       engagement: {
         name: "eng_eng",
@@ -1674,6 +1698,28 @@ export const Photos = {
       },
     },
     family: {
+      cake: {
+        name: "fam_cake",
+        alt: "Family in Concord NC",
+        avif: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/chd_21-400.avif 400w, https://cdn.btibbettphotography.com/images/portfolio/chd_21-800.avif 800w, https://cdn.btibbettphotography.com/images/portfolio/chd_21-1200.avif 1200w, https://cdn.btibbettphotography.com/images/portfolio/chd_21-1600.avif 1600w",
+        },
+        webp: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/chd_21-400.webp 400w, https://cdn.btibbettphotography.com/images/portfolio/chd_21-800.webp 800w, https://cdn.btibbettphotography.com/images/portfolio/chd_21-1200.webp 1200w, https://cdn.btibbettphotography.com/images/portfolio/chd_21-1600.webp 1600w",
+        },
+        jpg: "https://cdn.btibbettphotography.com/images/portfolio/chd_21.jpg",
+      },
+      mini: {
+        name: "fam_mini",
+        alt: "Family in Statesville NC",
+        avif: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/min_1-400.avif 400w, https://cdn.btibbettphotography.com/images/portfolio/min_1-800.avif 800w, https://cdn.btibbettphotography.com/images/portfolio/min_1-1200.avif 1200w, https://cdn.btibbettphotography.com/images/portfolio/min_1-1600.avif 1600w",
+        },
+        webp: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/min_1-400.webp 400w, https://cdn.btibbettphotography.com/images/portfolio/min_1-800.webp 800w, https://cdn.btibbettphotography.com/images/portfolio/min_1-1200.webp 1200w, https://cdn.btibbettphotography.com/images/portfolio/min_1-1600.webp 1600w",
+        },
+        jpg: "https://cdn.btibbettphotography.com/images/portfolio/min_1.jpg",
+      },
       family: {
         name: "fam_bas",
         alt: "Family in Troutman NC",
@@ -1733,6 +1779,17 @@ export const Photos = {
       },
     },
     seniors: {
+      mini: {
+        name: "sen_mini",
+        alt: "Senior in Cleveland NC",
+        avif: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/sen_27-400.avif 400w, https://cdn.btibbettphotography.com/images/portfolio/sen_27-800.avif 800w, https://cdn.btibbettphotography.com/images/portfolio/sen_27-1200.avif 1200w, https://cdn.btibbettphotography.com/images/portfolio/sen_27-1600.avif 1600w",
+        },
+        webp: {
+          set: "https://cdn.btibbettphotography.com/images/portfolio/sen_27-400.webp 400w, https://cdn.btibbettphotography.com/images/portfolio/sen_27-800.webp 800w, https://cdn.btibbettphotography.com/images/portfolio/sen_27-1200.webp 1200w, https://cdn.btibbettphotography.com/images/portfolio/sen_27-1600.webp 1600w",
+        },
+        jpg: "https://cdn.btibbettphotography.com/images/portfolio/sen_27.jpg",
+      },
       seniors: {
         name: "sen_bas",
         alt: "Senior in Davidson NC",

@@ -29,7 +29,7 @@ const Family = () => {
   return (
     <Grid size={12} component={Card}>
       <CardHeader
-        title="Family Session"
+        title="Standard Family Session"
         slotProps={{
           title: { align: "center", variant: "h3" },
           subheader: { align: "center", variant: "h6" },
@@ -68,7 +68,7 @@ const Family = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                40 minute Session & 15 Digital Images
+                40 minute Session & 20 Digital Images
               </Typography>
             </ListItem>
             <ListItem>
@@ -77,7 +77,11 @@ const Family = () => {
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography variant="body2">$140</Typography>
+              <Typography variant="body2">$200</Typography>
+            </ListItem>
+            <ListItem>
+              <Typography variant="body2">
+                Full Gallery Add-on:&nbsp;$180</Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">

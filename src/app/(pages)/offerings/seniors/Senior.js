@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 
 import Photos from "@/contants";
-const image = Photos.offerings.seniors.seniors;
+const image = Photos.offerings.seniors.extended;
 
 const PicHolder = styled(Grid)(({ theme }) => ({
   display: "flex",
@@ -29,7 +29,7 @@ const Senior = () => {
   return (
     <Grid size={12} component={Card}>
       <CardHeader
-        title="Senior Portraits"
+        title="Standard Senior Portraits"
         slotProps={{
           title: { align: "center", variant: "h3" },
           subheader: { align: "center", variant: "h6" },
@@ -68,7 +68,12 @@ const Senior = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                30 minute Session & 15 Digital Images
+                45 minute Session & 20 Digital Images
+              </Typography>
+            </ListItem>
+            <ListItem>
+              <Typography variant="body2">
+                Optional outfit change
               </Typography>
             </ListItem>
             <ListItem>
@@ -77,7 +82,7 @@ const Senior = () => {
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography variant="body2">$120</Typography>
+              <Typography variant="body2">$200</Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">

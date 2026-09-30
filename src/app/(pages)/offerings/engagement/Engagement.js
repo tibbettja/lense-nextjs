@@ -29,7 +29,7 @@ const Engagement = () => {
   return (
     <Grid size={12} component={Card}>
       <CardHeader
-        title="Engagement Sessions"
+        title="Engagement Session"
         slotProps={{
           title: { align: "center", variant: "h3" },
           subheader: { align: "center", variant: "h6" },
@@ -68,12 +68,12 @@ const Engagement = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                45 minute Session & 15 Digital Images
+                40 minute Session & 20 Digital Images
               </Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">
-                Potential for outfit change
+                Optional outfit change
               </Typography>
             </ListItem>
             <ListItem>
@@ -82,7 +82,7 @@ const Engagement = () => {
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography variant="body2">$150</Typography>
+              <Typography variant="body2">$140</Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">

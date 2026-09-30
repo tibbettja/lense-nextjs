@@ -69,7 +69,7 @@ const ExtendedFamily = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60 minute Session & 20 Digital Images
+                60 minute Session & 30 Digital Images
               </Typography>
             </ListItem>
             <ListItem>
@@ -78,7 +78,11 @@ const ExtendedFamily = () => {
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography variant="body2">$200</Typography>
+              <Typography variant="body2">$300</Typography>
+            </ListItem>
+                        <ListItem>
+              <Typography variant="body2">
+                Full Gallery Add-on:&nbsp;$240</Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">

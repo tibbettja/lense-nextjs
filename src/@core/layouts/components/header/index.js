@@ -134,7 +134,7 @@ const Header = () => {
                         size={isSmall ? "small" : undefined}
                         variant="outlined"
                       >
-                        Client Gallery
+                        Clients
                       </Button>
                     </Link>
                     <Link

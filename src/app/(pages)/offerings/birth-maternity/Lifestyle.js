@@ -29,7 +29,7 @@ const Lifestyle = () => {
   return (
     <Grid size={12} component={Card}>
       <CardHeader
-        title="Lifestyle Newbown Sessions"
+        title="Lifestyle Newborn Session"
         slotProps={{
           title: { align: "center", variant: "h3" },
           subheader: { align: "center", variant: "h6" },
@@ -68,18 +68,12 @@ const Lifestyle = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                60-120 minute Session (on baby-time!) & 30 Digital Images
-                (minimum)
+                60-120 minute Session (on baby-time!) & <b>Full Gallery</b>
               </Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">
-                Typically captured within the first 48 hours of life
-              </Typography>
-            </ListItem>
-            <ListItem>
-              <Typography variant="body2">
-                Potential for Multiple Outfit Changes
+                Typically captured within the first 10 days of life
               </Typography>
             </ListItem>
             <ListItem>

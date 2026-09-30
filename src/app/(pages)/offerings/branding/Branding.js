@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 
 import Photos from "@/contants";
-const image = Photos.offerings.branding;
+const image = Photos.offerings.branding.branding;
 
 const PicHolder = styled(Grid)(({ theme }) => ({
   display: "flex",
@@ -25,7 +25,7 @@ const PicHolder = styled(Grid)(({ theme }) => ({
   },
 }));
 
-const Valentines = () => {
+const Branding = () => {
   return (
     <Grid size={12} component={Card}>
       <CardHeader
@@ -69,7 +69,7 @@ const Valentines = () => {
           <Stack>
             <ListItem>
               <Typography variant="body2">
-                30 minute Session & 10 Digital Images
+                45 minute Session & 10 Digital Images
               </Typography>
             </ListItem>
             <ListItem>
@@ -83,7 +83,15 @@ const Valentines = () => {
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography variant="body2">$95</Typography>
+              <Typography variant="body2">$195</Typography>
+            </ListItem>
+            <ListItem>
+              <Typography variant="body2">
+                Full Gallery Add-on:&nbsp;$250</Typography>
+            </ListItem>
+            <ListItem>
+              <Typography variant="body2">
+                Ask about videography!</Typography>
             </ListItem>
             <ListItem>
               <Typography variant="body2">
@@ -102,4 +110,4 @@ const Valentines = () => {
   );
 };
 
-export default Valentines;
+export default Branding;
