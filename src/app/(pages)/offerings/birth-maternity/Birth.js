@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Button,
   Card,
   CardContent,
   CardHeader,
@@ -100,7 +101,7 @@ const Birth = () => {
                   href="https://portfolio.btibbettphotography.com/contact"
                   title="Inquire Now!"
                 >
-                  Inquire Now!
+                  <Button variant="contained">Inquiire Now!</Button>
                 </Link>
               </Typography>
             </ListItem>

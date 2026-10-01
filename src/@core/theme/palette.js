@@ -15,21 +15,21 @@ const DefaultPalette = (mode) => {
     },
     mode,
     primary: {
-      light: "#e2cfca", //
-      main: "#d5b9b2", //
-      dark: "#ccaba3", //
+      light: "#c8929b", //
+      main: "#c1858e", //
+      dark: "#b46a75", //
       contrastText: "#000",
     },
     secondary: {
-      light: "#aa7476", //
-      main: "#A26769", //
-      dark: "#985d5f", //
+      light: "#ad5d67", //
+      main: "#954b55", //
+      dark: "#88444d", //
       contrastText: "#fff",
     },
     info: {
-      light: "#813653", //
-      main: "#6D2E46", //
-      dark: "#562437", //
+      light: "#b77b84", //
+      main: "#ab6872", //
+      dark: "#9e5762", //
       contrastText: "#fff",
     },
     success: {
@@ -81,11 +81,11 @@ const DefaultPalette = (mode) => {
     },
     divider: `rgba(${mainColor}, 0.12)`,
     background: {
-      paper: mode === "light" ? "#f5cac3" : "#8c2f39",
-      default: mode === "light" ? "#f7ede2" : "#461220",
+      paper: mode === "light" ? "#d6aeb3" : "#8c2f39",
+      default: mode === "light" ? "#efe7e7" : "#461220",
       light: {
-        paper: "#f5cac3",
-        default: "#f7ede2",
+        paper: "#d6aeb3",
+        default: "#efe7e7",
       },
       dark: {
         paper: "#8c2f39",

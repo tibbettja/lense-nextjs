@@ -11,6 +11,7 @@ import {
   Stack,
   Typography,
   styled,
+  Button
 } from "@mui/material";
 
 import Photos from "@/contants";
@@ -90,7 +91,7 @@ const Fresh48 = () => {
                   href="https://portfolio.btibbettphotography.com/contact"
                   title="Inquire Now!"
                 >
-                  Inquire Now!
+                  <Button variant="contained">Inquire Now!</Button>
                 </Link>
               </Typography>
             </ListItem>

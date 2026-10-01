@@ -60,7 +60,7 @@ const MobileMenu = () => {
             handleClose(e, "https://portfolio.btibbettphotography.com", true)
           }
         >
-          <Typography variant="button">Client Gallery</Typography>
+          <Typography variant="button">Clients</Typography>
         </MenuItem>
         <MenuItem
           sx={{ textTransform: "lowercase" }}

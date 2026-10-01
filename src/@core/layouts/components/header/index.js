@@ -127,7 +127,7 @@ const Header = () => {
                     <Link
                       component={NextLink}
                       href="https://portfolio.btibbettphotography.com"
-                      title="Client Gallery"
+                      title="Clients"
                       target="_blank"
                     >
                       <Button
